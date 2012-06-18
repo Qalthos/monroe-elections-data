@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<election id="1" nm="2012 Presidential Primary Election" dt="20120424" tp="" jd="Monroe County" des="Monroe County Presidential Primary" ts="4/16/2012 3:48:42 PM" el="0">
+  <areatypes>
+    <areatype id="1" nm="Monroe County" top="1" ab="" des="" pid="0" s="1" />
+    <areatype id="2" nm="Congressional District" top="0" ab="" des="" pid="0" s="2" />
+  </areatypes>
+  <areas>
+    <area id="4" nm="Monroe County" ab="" des="" atid="1" pid="" t="1" el="0" s="100004" />
+    <area id="5" nm="25th Congressional District" ab="" des="" atid="2" pid="4" t="0" el="0" s="200001" />
+    <area id="2" nm="26th Congressional District" ab="" des="" atid="2" pid="4" t="0" el="0" s="200002" />
+    <area id="3" nm="28th Congressional District" ab="" des="" atid="2" pid="4" t="0" el="0" s="200003" />
+    <area id="1" nm="29th Congressional District" ab="" des="" atid="2" pid="4" t="0" el="0" s="200005" />
+  </areas>
+  <offices>
+    <office id="1" nm="President of the United States" atid="0" tp="" sys="" maj="0" s="1" />
+  </offices>
+  <contests>
+    <contest id="1001" nm="President of the United States 25th Congressional District" aid="5" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="1001001" />
+    <contest id="1002" nm="President of the United States 26th Congressional District" aid="2" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="1001002" />
+    <contest id="1003" nm="President of the United States 28th Congressional District" aid="3" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="1001003" />
+    <contest id="1004" nm="President of the United States 29th Congressional District" aid="1" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="1001004" />
+  </contests>
+  <parties>
+    <party id="1" nm="Republican" ab="Rep" des="" s="1" />
+  </parties>
+  <choices>
+    <choice id="1" nm="Ron Paul" conid="1001" wr="0" dis="0" inc="0" s="1" />
+    <choice id="2" nm="Newt Gingrich" conid="1001" wr="0" dis="0" inc="0" s="2" />
+    <choice id="3" nm="Mitt Romney" conid="1001" wr="0" dis="0" inc="0" s="3" />
+    <choice id="4" nm="Rick Santorum" conid="1001" wr="0" dis="0" inc="0" s="4" />
+    <choice id="5" nm="Ron Paul" conid="1002" wr="0" dis="0" inc="0" s="5" />
+    <choice id="6" nm="Newt Gingrich" conid="1002" wr="0" dis="0" inc="0" s="6" />
+    <choice id="7" nm="Mitt Romney" conid="1002" wr="0" dis="0" inc="0" s="7" />
+    <choice id="8" nm="Rick Santorum" conid="1002" wr="0" dis="0" inc="0" s="8" />
+    <choice id="9" nm="Ron Paul" conid="1003" wr="0" dis="0" inc="0" s="9" />
+    <choice id="10" nm="Newt Gingrich" conid="1003" wr="0" dis="0" inc="0" s="10" />
+    <choice id="11" nm="Mitt Romney" conid="1003" wr="0" dis="0" inc="0" s="11" />
+    <choice id="12" nm="Rick Santorum" conid="1003" wr="0" dis="0" inc="0" s="12" />
+    <choice id="13" nm="Ron Paul" conid="1004" wr="0" dis="0" inc="0" s="13" />
+    <choice id="14" nm="Newt Gingrich" conid="1004" wr="0" dis="0" inc="0" s="14" />
+    <choice id="15" nm="Mitt Romney" conid="1004" wr="0" dis="0" inc="0" s="15" />
+    <choice id="16" nm="Rick Santorum" conid="1004" wr="0" dis="0" inc="0" s="16" />
+  </choices>
+  <affiliations>
+    <aff chid="1" pid="1" s="1" />
+    <aff chid="2" pid="1" s="2" />
+    <aff chid="3" pid="1" s="3" />
+    <aff chid="4" pid="1" s="4" />
+    <aff chid="5" pid="1" s="5" />
+    <aff chid="6" pid="1" s="6" />
+    <aff chid="7" pid="1" s="7" />
+    <aff chid="8" pid="1" s="8" />
+    <aff chid="9" pid="1" s="9" />
+    <aff chid="10" pid="1" s="10" />
+    <aff chid="11" pid="1" s="11" />
+    <aff chid="12" pid="1" s="12" />
+    <aff chid="13" pid="1" s="13" />
+    <aff chid="14" pid="1" s="14" />
+    <aff chid="15" pid="1" s="15" />
+    <aff chid="16" pid="1" s="16" />
+  </affiliations>
+</election>
