@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<results ts="4/24/2012 11:35:44 PM" nm="2012 Presidential Primary Election" fin="1" bal="0" vot="0" tab="0" cltab="0" pol="357" clpol="357" stpol="0">
+  <choices>
+    <choice id="1" tot="1" vot="298" e="-1" />
+    <choice id="1" tot="0" pid="1" vot="298" />
+    <choice id="2" tot="1" vot="222" e="-1" />
+    <choice id="2" tot="0" pid="1" vot="222" />
+    <choice id="3" tot="1" vot="1166" e="1" />
+    <choice id="3" tot="0" pid="1" vot="1166" />
+    <choice id="4" tot="1" vot="191" e="-1" />
+    <choice id="4" tot="0" pid="1" vot="191" />
+    <choice id="5" tot="1" vot="411" e="-1" />
+    <choice id="5" tot="0" pid="1" vot="411" />
+    <choice id="6" tot="1" vot="326" e="-1" />
+    <choice id="6" tot="0" pid="1" vot="326" />
+    <choice id="7" tot="1" vot="1200" e="1" />
+    <choice id="7" tot="0" pid="1" vot="1200" />
+    <choice id="8" tot="1" vot="302" e="-1" />
+    <choice id="8" tot="0" pid="1" vot="302" />
+    <choice id="9" tot="1" vot="504" e="-1" />
+    <choice id="9" tot="0" pid="1" vot="504" />
+    <choice id="10" tot="1" vot="241" e="-1" />
+    <choice id="10" tot="0" pid="1" vot="241" />
+    <choice id="11" tot="1" vot="1014" e="1" />
+    <choice id="11" tot="0" pid="1" vot="1014" />
+    <choice id="12" tot="1" vot="228" e="-1" />
+    <choice id="12" tot="0" pid="1" vot="228" />
+    <choice id="13" tot="1" vot="635" e="-1" />
+    <choice id="13" tot="0" pid="1" vot="635" />
+    <choice id="14" tot="1" vot="414" e="-1" />
+    <choice id="14" tot="0" pid="1" vot="414" />
+    <choice id="15" tot="1" vot="2051" e="1" />
+    <choice id="15" tot="0" pid="1" vot="2051" />
+    <choice id="16" tot="1" vot="385" e="-1" />
+    <choice id="16" tot="0" pid="1" vot="385" />
+  </choices>
+  <contests>
+    <contest id="1001" bal="1880" bl="3" uv="3" ov="0" wr="0" />
+    <contest id="1002" bal="2244" bl="5" uv="5" ov="0" wr="0" />
+    <contest id="1003" bal="1992" bl="5" uv="5" ov="0" wr="0" />
+    <contest id="1004" bal="3489" bl="4" uv="4" ov="0" wr="0" />
+  </contests>
+  <areas>
+    <area id="4" bal="0" vot="0" tab="0" cltab="0" pol="357" clpol="357" stpol="0" />
+    <area id="5" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
+    <area id="2" bal="0" vot="0" tab="0" cltab="0" pol="79" clpol="79" stpol="0" />
+    <area id="3" bal="0" vot="0" tab="0" cltab="0" pol="131" clpol="131" stpol="0" />
+    <area id="1" bal="0" vot="0" tab="0" cltab="0" pol="94" clpol="94" stpol="0" />
+  </areas>
+</results>
