@@ -1,77 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="4/25/2012 1:04:20 AM" nm="2012 Presidential Primary" fin="1" bal="0" vot="0" tab="0" cltab="0" pol="1047" clpol="1047" stpol="0">
+<results ts="6/27/2012 12:22:33 AM" nm="2012 Federal Primary" fin="1" bal="0" vot="0" tab="0" cltab="0" pol="1051" clpol="1051" stpol="0">
   <choices>
-    <choice id="1" tot="1" vot="2171" e="-1" />
-    <choice id="1" tot="0" pid="1" vot="2171" />
-    <choice id="2" tot="1" vot="1908" e="-1" />
-    <choice id="2" tot="0" pid="1" vot="1908" />
-    <choice id="3" tot="1" vot="13084" e="1" />
-    <choice id="3" tot="0" pid="1" vot="13084" />
-    <choice id="4" tot="1" vot="852" e="-1" />
-    <choice id="4" tot="0" pid="1" vot="852" />
+    <choice id="1" tot="1" vot="5404" e="1" />
+    <choice id="1" tot="0" pid="1" vot="5404" />
+    <choice id="2" tot="1" vot="4218" e="-1" />
+    <choice id="2" tot="0" pid="1" vot="4218" />
+    <choice id="3" tot="1" vot="2454" e="-1" />
+    <choice id="3" tot="0" pid="1" vot="2454" />
+    <choice id="4" tot="1" vot="18" e="-1" />
+    <choice id="5" tot="1" vot="6692" e="1" />
+    <choice id="5" tot="0" pid="1" vot="6692" />
+    <choice id="6" tot="1" vot="978" e="-1" />
+    <choice id="6" tot="0" pid="1" vot="978" />
+    <choice id="7" tot="1" vot="22" e="-1" />
   </choices>
   <contests>
-    <contest id="1001" bal="18078" bl="62" uv="62" ov="1" wr="0" />
+    <contest id="1001" bal="12593" bl="18" uv="420" ov="79" wr="0" />
+    <contest id="1002" bal="7953" bl="9" uv="215" ov="46" wr="0" />
   </contests>
   <areas>
-    <area id="42" bal="0" vot="0" tab="0" cltab="0" pol="1047" clpol="1047" stpol="0" />
-    <area id="39" bal="0" vot="0" tab="0" cltab="0" pol="154" clpol="154" stpol="0" />
-    <area id="56" bal="0" vot="0" tab="0" cltab="0" pol="294" clpol="294" stpol="0" />
-    <area id="20" bal="0" vot="0" tab="0" cltab="0" pol="19" clpol="19" stpol="0" />
-    <area id="40" bal="0" vot="0" tab="0" cltab="0" pol="178" clpol="178" stpol="0" />
-    <area id="10" bal="0" vot="0" tab="0" cltab="0" pol="223" clpol="223" stpol="0" />
-    <area id="52" bal="0" vot="0" tab="0" cltab="0" pol="22" clpol="22" stpol="0" />
-    <area id="24" bal="0" vot="0" tab="0" cltab="0" pol="4" clpol="4" stpol="0" />
-    <area id="19" bal="0" vot="0" tab="0" cltab="0" pol="92" clpol="92" stpol="0" />
-    <area id="38" bal="0" vot="0" tab="0" cltab="0" pol="42" clpol="42" stpol="0" />
-    <area id="18" bal="0" vot="0" tab="0" cltab="0" pol="19" clpol="19" stpol="0" />
-    <area id="54" bal="0" vot="0" tab="0" cltab="0" pol="123" clpol="123" stpol="0" />
-    <area id="37" bal="0" vot="0" tab="0" cltab="0" pol="464" clpol="464" stpol="0" />
-    <area id="12" bal="0" vot="0" tab="0" cltab="0" pol="460" clpol="460" stpol="0" />
-    <area id="41" bal="0" vot="0" tab="0" cltab="0" pol="227" clpol="227" stpol="0" />
-    <area id="45" bal="0" vot="0" tab="0" cltab="0" pol="36" clpol="36" stpol="0" />
-    <area id="49" bal="0" vot="0" tab="0" cltab="0" pol="229" clpol="229" stpol="0" />
-    <area id="31" bal="0" vot="0" tab="0" cltab="0" pol="226" clpol="226" stpol="0" />
-    <area id="4" bal="0" vot="0" tab="0" cltab="0" pol="203" clpol="203" stpol="0" />
-    <area id="43" bal="0" vot="0" tab="0" cltab="0" pol="126" clpol="126" stpol="0" />
-    <area id="44" bal="0" vot="0" tab="0" cltab="0" pol="108" clpol="108" stpol="0" />
-    <area id="11" bal="0" vot="0" tab="0" cltab="0" pol="121" clpol="121" stpol="0" />
-    <area id="35" bal="0" vot="0" tab="0" cltab="0" pol="88" clpol="88" stpol="0" />
-    <area id="59" bal="0" vot="0" tab="0" cltab="0" pol="94" clpol="94" stpol="0" />
-    <area id="51" bal="0" vot="0" tab="0" cltab="0" pol="86" clpol="86" stpol="0" />
-    <area id="55" bal="0" vot="0" tab="0" cltab="0" pol="98" clpol="98" stpol="0" />
-    <area id="26" bal="0" vot="0" tab="0" cltab="0" pol="87" clpol="87" stpol="0" />
-    <area id="53" bal="0" vot="0" tab="0" cltab="0" pol="105" clpol="105" stpol="0" />
-    <area id="27" bal="0" vot="0" tab="0" cltab="0" pol="92" clpol="92" stpol="0" />
-    <area id="33" bal="0" vot="0" tab="0" cltab="0" pol="92" clpol="92" stpol="0" />
-    <area id="48" bal="0" vot="0" tab="0" cltab="0" pol="76" clpol="76" stpol="0" />
-    <area id="6" bal="0" vot="0" tab="0" cltab="0" pol="51" clpol="51" stpol="0" />
-    <area id="28" bal="0" vot="0" tab="0" cltab="0" pol="50" clpol="50" stpol="0" />
-    <area id="9" bal="0" vot="0" tab="0" cltab="0" pol="41" clpol="41" stpol="0" />
-    <area id="50" bal="0" vot="0" tab="0" cltab="0" pol="50" clpol="50" stpol="0" />
-    <area id="15" bal="0" vot="0" tab="0" cltab="0" pol="54" clpol="54" stpol="0" />
-    <area id="5" bal="0" vot="0" tab="0" cltab="0" pol="48" clpol="48" stpol="0" />
-    <area id="57" bal="0" vot="0" tab="0" cltab="0" pol="11" clpol="11" stpol="0" />
-    <area id="17" bal="0" vot="0" tab="0" cltab="0" pol="18" clpol="18" stpol="0" />
-    <area id="58" bal="0" vot="0" tab="0" cltab="0" pol="8" clpol="8" stpol="0" />
-    <area id="22" bal="0" vot="0" tab="0" cltab="0" pol="941" clpol="941" stpol="0" />
-    <area id="7" bal="0" vot="0" tab="0" cltab="0" pol="58" clpol="58" stpol="0" />
-    <area id="32" bal="0" vot="0" tab="0" cltab="0" pol="68" clpol="68" stpol="0" />
-    <area id="13" bal="0" vot="0" tab="0" cltab="0" pol="51" clpol="51" stpol="0" />
-    <area id="29" bal="0" vot="0" tab="0" cltab="0" pol="71" clpol="71" stpol="0" />
-    <area id="21" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
-    <area id="2" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
-    <area id="1" bal="0" vot="0" tab="0" cltab="0" pol="62" clpol="62" stpol="0" />
-    <area id="30" bal="0" vot="0" tab="0" cltab="0" pol="47" clpol="47" stpol="0" />
+    <area id="43" bal="0" vot="0" tab="0" cltab="0" pol="1051" clpol="1051" stpol="0" />
+    <area id="4" bal="0" vot="0" tab="0" cltab="0" pol="154" clpol="154" stpol="0" />
+    <area id="49" bal="0" vot="0" tab="0" cltab="0" pol="295" clpol="295" stpol="0" />
+    <area id="33" bal="0" vot="0" tab="0" cltab="0" pol="19" clpol="19" stpol="0" />
+    <area id="60" bal="0" vot="0" tab="0" cltab="0" pol="178" clpol="178" stpol="0" />
+    <area id="59" bal="0" vot="0" tab="0" cltab="0" pol="226" clpol="226" stpol="0" />
+    <area id="34" bal="0" vot="0" tab="0" cltab="0" pol="22" clpol="22" stpol="0" />
+    <area id="30" bal="0" vot="0" tab="0" cltab="0" pol="4" clpol="4" stpol="0" />
+    <area id="52" bal="0" vot="0" tab="0" cltab="0" pol="92" clpol="92" stpol="0" />
+    <area id="42" bal="0" vot="0" tab="0" cltab="0" pol="42" clpol="42" stpol="0" />
+    <area id="13" bal="0" vot="0" tab="0" cltab="0" pol="19" clpol="19" stpol="0" />
+    <area id="50" bal="0" vot="0" tab="0" cltab="0" pol="369" clpol="369" stpol="0" />
+    <area id="20" bal="0" vot="0" tab="0" cltab="0" pol="472" clpol="472" stpol="0" />
+    <area id="3" bal="0" vot="0" tab="0" cltab="0" pol="210" clpol="210" stpol="0" />
+    <area id="6" bal="0" vot="0" tab="0" cltab="0" pol="225" clpol="225" stpol="0" />
     <area id="36" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
-    <area id="34" bal="0" vot="0" tab="0" cltab="0" pol="64" clpol="64" stpol="0" />
-    <area id="8" bal="0" vot="0" tab="0" cltab="0" pol="51" clpol="51" stpol="0" />
-    <area id="3" bal="0" vot="0" tab="0" cltab="0" pol="63" clpol="63" stpol="0" />
-    <area id="14" bal="0" vot="0" tab="0" cltab="0" pol="59" clpol="59" stpol="0" />
-    <area id="46" bal="0" vot="0" tab="0" cltab="0" pol="52" clpol="52" stpol="0" />
-    <area id="47" bal="0" vot="0" tab="0" cltab="0" pol="75" clpol="75" stpol="0" />
-    <area id="23" bal="0" vot="0" tab="0" cltab="0" pol="60" clpol="60" stpol="0" />
-    <area id="25" bal="0" vot="0" tab="0" cltab="0" pol="63" clpol="63" stpol="0" />
-    <area id="16" bal="0" vot="0" tab="0" cltab="0" pol="44" clpol="44" stpol="0" />
+    <area id="14" bal="0" vot="0" tab="0" cltab="0" pol="221" clpol="221" stpol="0" />
+    <area id="37" bal="0" vot="0" tab="0" cltab="0" pol="212" clpol="212" stpol="0" />
+    <area id="24" bal="0" vot="0" tab="0" cltab="0" pol="205" clpol="205" stpol="0" />
+    <area id="1" bal="0" vot="0" tab="0" cltab="0" pol="135" clpol="135" stpol="0" />
+    <area id="23" bal="0" vot="0" tab="0" cltab="0" pol="64" clpol="64" stpol="0" />
+    <area id="22" bal="0" vot="0" tab="0" cltab="0" pol="121" clpol="121" stpol="0" />
+    <area id="31" bal="0" vot="0" tab="0" cltab="0" pol="81" clpol="81" stpol="0" />
+    <area id="57" bal="0" vot="0" tab="0" cltab="0" pol="105" clpol="105" stpol="0" />
+    <area id="12" bal="0" vot="0" tab="0" cltab="0" pol="78" clpol="78" stpol="0" />
+    <area id="27" bal="0" vot="0" tab="0" cltab="0" pol="89" clpol="89" stpol="0" />
+    <area id="15" bal="0" vot="0" tab="0" cltab="0" pol="72" clpol="72" stpol="0" />
+    <area id="55" bal="0" vot="0" tab="0" cltab="0" pol="82" clpol="82" stpol="0" />
+    <area id="16" bal="0" vot="0" tab="0" cltab="0" pol="102" clpol="102" stpol="0" />
+    <area id="18" bal="0" vot="0" tab="0" cltab="0" pol="90" clpol="90" stpol="0" />
+    <area id="58" bal="0" vot="0" tab="0" cltab="0" pol="64" clpol="64" stpol="0" />
+    <area id="48" bal="0" vot="0" tab="0" cltab="0" pol="103" clpol="103" stpol="0" />
+    <area id="51" bal="0" vot="0" tab="0" cltab="0" pol="51" clpol="51" stpol="0" />
+    <area id="47" bal="0" vot="0" tab="0" cltab="0" pol="50" clpol="50" stpol="0" />
+    <area id="39" bal="0" vot="0" tab="0" cltab="0" pol="44" clpol="44" stpol="0" />
+    <area id="32" bal="0" vot="0" tab="0" cltab="0" pol="49" clpol="49" stpol="0" />
+    <area id="45" bal="0" vot="0" tab="0" cltab="0" pol="56" clpol="56" stpol="0" />
+    <area id="17" bal="0" vot="0" tab="0" cltab="0" pol="45" clpol="45" stpol="0" />
+    <area id="11" bal="0" vot="0" tab="0" cltab="0" pol="11" clpol="11" stpol="0" />
+    <area id="9" bal="0" vot="0" tab="0" cltab="0" pol="18" clpol="18" stpol="0" />
+    <area id="28" bal="0" vot="0" tab="0" cltab="0" pol="8" clpol="8" stpol="0" />
+    <area id="29" bal="0" vot="0" tab="0" cltab="0" pol="945" clpol="945" stpol="0" />
+    <area id="25" bal="0" vot="0" tab="0" cltab="0" pol="58" clpol="58" stpol="0" />
+    <area id="40" bal="0" vot="0" tab="0" cltab="0" pol="71" clpol="71" stpol="0" />
+    <area id="19" bal="0" vot="0" tab="0" cltab="0" pol="51" clpol="51" stpol="0" />
+    <area id="46" bal="0" vot="0" tab="0" cltab="0" pol="68" clpol="68" stpol="0" />
+    <area id="7" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
+    <area id="10" bal="0" vot="0" tab="0" cltab="0" pol="53" clpol="53" stpol="0" />
+    <area id="53" bal="0" vot="0" tab="0" cltab="0" pol="65" clpol="65" stpol="0" />
+    <area id="5" bal="0" vot="0" tab="0" cltab="0" pol="46" clpol="46" stpol="0" />
+    <area id="44" bal="0" vot="0" tab="0" cltab="0" pol="55" clpol="55" stpol="0" />
+    <area id="21" bal="0" vot="0" tab="0" cltab="0" pol="66" clpol="66" stpol="0" />
+    <area id="38" bal="0" vot="0" tab="0" cltab="0" pol="49" clpol="49" stpol="0" />
+    <area id="8" bal="0" vot="0" tab="0" cltab="0" pol="63" clpol="63" stpol="0" />
+    <area id="56" bal="0" vot="0" tab="0" cltab="0" pol="58" clpol="58" stpol="0" />
+    <area id="54" bal="0" vot="0" tab="0" cltab="0" pol="52" clpol="52" stpol="0" />
+    <area id="41" bal="0" vot="0" tab="0" cltab="0" pol="75" clpol="75" stpol="0" />
+    <area id="26" bal="0" vot="0" tab="0" cltab="0" pol="60" clpol="60" stpol="0" />
+    <area id="2" bal="0" vot="0" tab="0" cltab="0" pol="62" clpol="62" stpol="0" />
+    <area id="35" bal="0" vot="0" tab="0" cltab="0" pol="46" clpol="46" stpol="0" />
   </areas>
 </results>
