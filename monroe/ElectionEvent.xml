@@ -1,364 +1,310 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<election id="1" nm="2012 Primary Election" dt="20120913" tp="" jd="Monroe" des="County Primary" ts="8/31/2012 11:21:49 AM" el="0">
+<election id="1" nm="2012 General Election" dt="20121106" tp="" jd="Monroe" des="2012 Election" ts="10/8/2012 3:02:24 PM" el="0">
   <areatypes>
-    <areatype id="1" nm="Monroe" top="1" ab="" des="" pid="0" s="1" />
-    <areatype id="2" nm="State Senate" top="0" ab="" des="" pid="0" s="2" />
-    <areatype id="3" nm="State Assembly" top="0" ab="" des="" pid="0" s="3" />
-    <areatype id="4" nm="7th Judicial Delegate" top="0" ab="" des="" pid="0" s="4" />
-    <areatype id="5" nm="State Committee Democratic" top="0" ab="" des="" pid="0" s="5" />
-    <areatype id="6" nm="State Committee Conservative" top="0" ab="" des="" pid="0" s="6" />
-    <areatype id="7" nm="Town" top="0" ab="" des="" pid="0" s="7" />
-    <areatype id="8" nm="County Committee LD 21" top="0" ab="" des="" pid="0" s="8" />
-    <areatype id="9" nm="County Committee LD 29" top="0" ab="" des="" pid="0" s="9" />
+    <areatype id="1" nm="Monroe County" top="1" ab="" des="" pid="0" s="1" />
+    <areatype id="2" nm="Federal" top="0" ab="" des="" pid="0" s="2" />
+    <areatype id="3" nm="State" top="0" ab="" des="" pid="0" s="3" />
+    <areatype id="4" nm="Congressional" top="0" ab="" des="" pid="0" s="4" />
+    <areatype id="5" nm="State Senate" top="0" ab="" des="" pid="0" s="5" />
+    <areatype id="6" nm="State Assembly" top="0" ab="" des="" pid="0" s="6" />
+    <areatype id="7" nm="County" top="0" ab="" des="" pid="0" s="7" />
+    <areatype id="8" nm="County Legislature" top="0" ab="" des="" pid="0" s="8" />
+    <areatype id="9" nm="City " top="0" ab="" des="" pid="0" s="9" />
+    <areatype id="10" nm="Town" top="0" ab="" des="" pid="0" s="10" />
   </areatypes>
   <areas>
-    <area id="2" nm="Monroe" ab="" des="" atid="1" pid="" t="1" el="0" s="100002" />
-    <area id="20" nm="62nd Senate District" ab="" des="" atid="2" pid="2" t="0" el="0" s="200020" />
-    <area id="14" nm="133rd Assembly District" ab="" des="" atid="3" pid="2" t="0" el="0" s="300004" />
-    <area id="6" nm="137th Assembly District" ab="" des="" atid="3" pid="2" t="0" el="0" s="300006" />
-    <area id="15" nm="133rd Assembly District" ab="" des="" atid="4" pid="2" t="0" el="0" s="400015" />
-    <area id="10" nm="137th Assembly District" ab="" des="" atid="5" pid="2" t="0" el="0" s="500010" />
-    <area id="17" nm="27th Congressional District" ab="" des="" atid="6" pid="2" t="0" el="0" s="600017" />
-    <area id="8" nm="East Rochester" ab="" des="" atid="7" pid="2" t="0" el="0" s="700008" />
-    <area id="3" nm="County Committee 21-18" ab="" des="" atid="8" pid="2" t="0" el="0" s="800001" />
-    <area id="9" nm="County Committee 21-19" ab="" des="" atid="8" pid="2" t="0" el="0" s="800002" />
-    <area id="19" nm="County Committee 21-21" ab="" des="" atid="8" pid="2" t="0" el="0" s="800003" />
-    <area id="4" nm="County Committee 21-22" ab="" des="" atid="8" pid="2" t="0" el="0" s="800004" />
-    <area id="13" nm="County Committee 21-23" ab="" des="" atid="8" pid="2" t="0" el="0" s="800005" />
-    <area id="7" nm="County Committee 21-25" ab="" des="" atid="8" pid="2" t="0" el="0" s="800006" />
-    <area id="5" nm="County Committee 21-27" ab="" des="" atid="8" pid="2" t="0" el="0" s="800007" />
-    <area id="12" nm="County Committee 29-11" ab="" des="" atid="9" pid="2" t="0" el="0" s="900011" />
-    <area id="18" nm="County Committee 29-15" ab="" des="" atid="9" pid="2" t="0" el="0" s="900012" />
-    <area id="11" nm="County Committee 29-16" ab="" des="" atid="9" pid="2" t="0" el="0" s="900013" />
-    <area id="1" nm="County Committee 29-18" ab="" des="" atid="9" pid="2" t="0" el="0" s="900014" />
-    <area id="16" nm="County Committee 29-24" ab="" des="" atid="9" pid="2" t="0" el="0" s="900015" />
+    <area id="29" nm="Monroe" ab="" des="" atid="1" pid="" t="1" el="0" s="100029" />
+    <area id="6" nm="National" ab="" des="" atid="2" pid="29" t="0" el="0" s="200006" />
+    <area id="23" nm="7th Judicial District" ab="" des="" atid="3" pid="29" t="0" el="0" s="300023" />
+    <area id="5" nm="25th Congressional District" ab="" des="" atid="4" pid="29" t="0" el="0" s="400005" />
+    <area id="24" nm="27th Congressional District" ab="" des="" atid="4" pid="29" t="0" el="0" s="400024" />
+    <area id="3" nm="54th Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500001" />
+    <area id="1" nm="55th Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500002" />
+    <area id="28" nm="56th Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500003" />
+    <area id="21" nm="59th Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500004" />
+    <area id="14" nm="61st Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500005" />
+    <area id="2" nm="62nd Senate District" ab="" des="" atid="5" pid="29" t="0" el="0" s="500006" />
+    <area id="18" nm="133rd Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600001" />
+    <area id="13" nm="134th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600002" />
+    <area id="9" nm="135th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600003" />
+    <area id="10" nm="136th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600004" />
+    <area id="25" nm="137th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600005" />
+    <area id="4" nm="138th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600006" />
+    <area id="19" nm="139th Assembly District" ab="" des="" atid="6" pid="29" t="0" el="0" s="600007" />
+    <area id="8" nm="Monroe" ab="" des="" atid="7" pid="29" t="0" el="0" s="700008" />
+    <area id="11" nm="16th County Legislative District" ab="" des="" atid="8" pid="29" t="0" el="0" s="800011" />
+    <area id="22" nm="Rochester" ab="" des="" atid="9" pid="29" t="0" el="0" s="900022" />
+    <area id="17" nm="Brighton" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000001" />
+    <area id="7" nm="Hamlin" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000004" />
+    <area id="26" nm="Irondequoit" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000005" />
+    <area id="15" nm="Mendon" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000006" />
+    <area id="27" nm="Parma" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000007" />
+    <area id="16" nm="Rush" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000008" />
+    <area id="12" nm="East Rochester" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000002" />
+    <area id="20" nm="Greece" ab="" des="" atid="10" pid="29" t="0" el="0" s="1000003" />
   </areas>
   <offices>
-    <office id="1" nm="State Senator" atid="0" tp="" sys="" maj="0" s="1" />
-    <office id="2" nm="Member of Assembly 137th" atid="0" tp="" sys="" maj="0" s="3" />
-    <office id="3" nm="Member of Assembly 133rd" atid="0" tp="" sys="" maj="0" s="2" />
-    <office id="4" nm="Judcial Delegate" atid="0" tp="" sys="" maj="0" s="4" />
-    <office id="5" nm="State Committee 27th CD" atid="0" tp="" sys="" maj="0" s="5" />
-    <office id="6" nm="State Committee 137th AD" atid="0" tp="" sys="" maj="0" s="6" />
-    <office id="7" nm="Town Justice" atid="0" tp="" sys="" maj="0" s="7" />
-    <office id="8" nm="County Committee LD 21 ED 18" atid="0" tp="" sys="" maj="0" s="8" />
-    <office id="9" nm="County Committee LD 21 ED 19" atid="0" tp="" sys="" maj="0" s="9" />
-    <office id="10" nm="County Committee LD 21 ED 21" atid="0" tp="" sys="" maj="0" s="10" />
-    <office id="11" nm="County Committee LD 21 ED 22" atid="0" tp="" sys="" maj="0" s="11" />
-    <office id="12" nm="County Committee LD 21 ED 23" atid="0" tp="" sys="" maj="0" s="12" />
-    <office id="13" nm="County Committee LD 21 ED 25" atid="0" tp="" sys="" maj="0" s="13" />
-    <office id="14" nm="County Committee LD 21 ED 27" atid="0" tp="" sys="" maj="0" s="14" />
-    <office id="15" nm="County Committee LD 29 ED 11" atid="0" tp="" sys="" maj="0" s="15" />
-    <office id="16" nm="County Committee LD 29 ED 15" atid="0" tp="" sys="" maj="0" s="16" />
-    <office id="17" nm="County Committee LD 29 ED 16" atid="0" tp="" sys="" maj="0" s="17" />
-    <office id="18" nm="County Committee LD 29 ED 18" atid="0" tp="" sys="" maj="0" s="18" />
-    <office id="19" nm="County Committee LD 29 ED 24" atid="0" tp="" sys="" maj="0" s="19" />
+    <office id="1" nm="President and Vice President" atid="0" tp="" sys="" maj="0" s="1" />
+    <office id="2" nm="United States Sentator" atid="0" tp="" sys="" maj="0" s="2" />
+    <office id="3" nm="State Supreme Court Justice" atid="0" tp="" sys="" maj="0" s="3" />
+    <office id="4" nm="Representative in Congress" atid="0" tp="" sys="" maj="0" s="4" />
+    <office id="5" nm="State Senator" atid="0" tp="" sys="" maj="0" s="5" />
+    <office id="6" nm="Member of Assembly" atid="0" tp="" sys="" maj="0" s="6" />
+    <office id="7" nm="County Clerk" atid="0" tp="" sys="" maj="0" s="7" />
+    <office id="8" nm="County Legislator - 16th" atid="0" tp="" sys="" maj="0" s="8" />
+    <office id="9" nm="City Court" atid="0" tp="" sys="" maj="0" s="9" />
+    <office id="10" nm="Town Justice" atid="0" tp="" sys="" maj="0" s="10" />
+    <office id="11" nm="Town Council " atid="0" tp="" sys="" maj="0" s="11" />
+    <office id="12" nm="Town Council 3yr" atid="0" tp="" sys="" maj="0" s="12" />
+    <office id="13" nm="Proposition" atid="0" tp="" sys="" maj="0" s="13" />
   </offices>
   <contests>
-    <contest id="1001" nm="State Senator - 62nd District - Republican" aid="20" oid="1" pos="1" wr="1" el="0" acc="0" dis="0" s="2001001" />
-    <contest id="1002" nm="State Senator - 62nd District - Working Families" aid="20" oid="1" pos="1" wr="1" el="0" acc="0" dis="0" s="4001002" />
-    <contest id="1003" nm="Member of Assembly - 137th District - Democratic" aid="6" oid="2" pos="1" wr="1" el="0" acc="0" dis="0" s="1001003" />
-    <contest id="1004" nm="Member of Assembly - 133rd District - Republican" aid="14" oid="3" pos="1" wr="1" el="0" acc="0" dis="0" s="2001004" />
-    <contest id="1005" nm="Judicial Delegate - 7th JD - 133rd AD - Independence" aid="15" oid="4" pos="3" wr="3" el="0" acc="0" dis="0" s="5001005" />
-    <contest id="1006" nm="State Committee - Congressional District 27 - Conservative" aid="17" oid="5" pos="12" wr="12" el="0" acc="0" dis="0" s="3001006" />
-    <contest id="1007" nm="State Committee 137th Assembly District - Democratic" aid="10" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1001007" />
-    <contest id="1008" nm="East Rochester Town Justice - Independence" aid="8" oid="7" pos="1" wr="1" el="0" acc="0" dis="0" s="5001008" />
-    <contest id="1009" nm="County Committee - Leg. Dist. 21 ED 18 - Democratic" aid="3" oid="8" pos="4" wr="4" el="0" acc="0" dis="0" s="1001009" />
-    <contest id="1010" nm="County Committee - Leg. Dist. 21 ED 19 - Democratic" aid="9" oid="9" pos="4" wr="4" el="0" acc="0" dis="0" s="1001010" />
-    <contest id="1011" nm="County Committee - Leg. Dist. 21 ED 21 - Democratic" aid="19" oid="10" pos="4" wr="4" el="0" acc="0" dis="0" s="1001011" />
-    <contest id="1012" nm="County Committee - Leg. Dist. 21 ED 22 - Democratic" aid="4" oid="11" pos="4" wr="4" el="0" acc="0" dis="0" s="1001012" />
-    <contest id="1013" nm="County Committee - Leg. Dist. 21 ED 23 - Democratic" aid="13" oid="12" pos="4" wr="4" el="0" acc="0" dis="0" s="1001013" />
-    <contest id="1014" nm="County Committee - Leg. Dist. 21 ED 25 - Democratic" aid="7" oid="13" pos="4" wr="4" el="0" acc="0" dis="0" s="1001014" />
-    <contest id="1015" nm="County Committee - Leg. Dist. 21 ED 27 - Democratic" aid="5" oid="14" pos="4" wr="4" el="0" acc="0" dis="0" s="1001015" />
-    <contest id="1016" nm="County Committee - Leg. Dist. 29 ED 11 - Democratic" aid="12" oid="15" pos="4" wr="4" el="0" acc="0" dis="0" s="1001016" />
-    <contest id="1017" nm="County Committee - Leg. Dist. 29 ED 15 - Democratic" aid="18" oid="16" pos="4" wr="4" el="0" acc="0" dis="0" s="1001017" />
-    <contest id="1018" nm="County Committee - Leg. Dist. 29 ED 16 - Democratic" aid="11" oid="17" pos="4" wr="4" el="0" acc="0" dis="0" s="1001018" />
-    <contest id="1019" nm="County Committee - Leg. Dist. 29 ED 18 - Democratic" aid="1" oid="18" pos="4" wr="4" el="0" acc="0" dis="0" s="1001019" />
-    <contest id="1020" nm="County Committee - Leg. Dist. 29 ED 24 - Democratic" aid="16" oid="19" pos="4" wr="4" el="0" acc="0" dis="0" s="1001020" />
+    <contest id="1001" nm="PRESIDENTIAL ELECTORS FOR PRESIDENT AND VICE PRESIDENT" aid="6" oid="1" pos="1" wr="1" el="0" acc="0" dis="0" s="1001" />
+    <contest id="1002" nm="UNITED STATES SENATOR" aid="6" oid="2" pos="1" wr="1" el="0" acc="0" dis="0" s="1002" />
+    <contest id="1003" nm="STATE SUPREME COURT JUSTICE 7th Judicial District" aid="23" oid="3" pos="2" wr="2" el="0" acc="0" dis="0" s="1003" />
+    <contest id="1004" nm="REPRESENTATIVE IN CONGRESS 25th District" aid="5" oid="4" pos="1" wr="1" el="0" acc="0" dis="0" s="1004" />
+    <contest id="1005" nm="REPRESENTATIVE IN CONGRESS 27th District" aid="24" oid="4" pos="1" wr="1" el="0" acc="0" dis="0" s="1005" />
+    <contest id="1006" nm="STATE SENATOR 54th District" aid="3" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1006" />
+    <contest id="1007" nm="STATE SENATOR 55th District" aid="1" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1007" />
+    <contest id="1008" nm="STATE SENATOR 56th District" aid="28" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1008" />
+    <contest id="1009" nm="STATE SENATOR 59th District" aid="21" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1009" />
+    <contest id="1010" nm="STATE SENATOR 61st District" aid="14" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1010" />
+    <contest id="1011" nm="STATE SENATOR 62nd District" aid="2" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="1011" />
+    <contest id="1012" nm="MEMBER OF ASSEMBLY 133rd District" aid="18" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1012" />
+    <contest id="1013" nm="MEMBER OF ASSEMBLY 134th District" aid="13" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1013" />
+    <contest id="1014" nm="MEMBER OF ASSEMBLY 135th District" aid="9" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1014" />
+    <contest id="1015" nm="MEMBER OF ASSEMBLY 136th District" aid="10" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1015" />
+    <contest id="1016" nm="MEMBER OF ASSEMBLY 137th District" aid="25" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1016" />
+    <contest id="1017" nm="MEMBER OF ASSEMBLY 138th District" aid="4" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1017" />
+    <contest id="1018" nm="MEMBER OF ASSEMBLY 139th District" aid="19" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="1018" />
+    <contest id="1019" nm="COUNTY  CLERK" aid="8" oid="7" pos="1" wr="1" el="0" acc="0" dis="0" s="1019" />
+    <contest id="1020" nm="COUNTY LEGISLATOR 16th District - 3 yr term" aid="11" oid="8" pos="1" wr="1" el="0" acc="0" dis="0" s="1020" />
+    <contest id="1021" nm="CITY COURT JUDGE" aid="22" oid="9" pos="1" wr="1" el="0" acc="0" dis="0" s="1021" />
+    <contest id="1022" nm="BRIGHTON TOWN JUSTICE" aid="17" oid="10" pos="1" wr="1" el="0" acc="0" dis="0" s="1022" />
+    <contest id="1023" nm="RUSH TOWN JUSTICE" aid="16" oid="10" pos="1" wr="1" el="0" acc="0" dis="0" s="1023" />
+    <contest id="1024" nm="EAST ROCHESTER TOWN JUSTICE" aid="12" oid="10" pos="1" wr="1" el="0" acc="0" dis="0" s="1024" />
+    <contest id="1025" nm="HAMLIN MEMBER OF TOWN COUNCIL - 1 yr term" aid="7" oid="11" pos="1" wr="1" el="0" acc="0" dis="0" s="1025" />
+    <contest id="1026" nm="MENDON MEMBER OF TOWN COUNCIL - 1 yr term" aid="15" oid="11" pos="1" wr="1" el="0" acc="0" dis="0" s="1026" />
+    <contest id="1027" nm="PARMA MEMBER OF TOWN COUNCIL - 1 yr term" aid="27" oid="11" pos="1" wr="1" el="0" acc="0" dis="0" s="1027" />
+    <contest id="1028" nm="IRONDEQUOIT MEMBER OF TOWN COUNCIL - 3 yr term" aid="26" oid="12" pos="1" wr="1" el="0" acc="0" dis="0" s="1028" />
+    <contest id="1029" nm="GREECE PROPOSITION" aid="20" oid="13" pos="1" wr="0" el="0" acc="0" dis="0" s="1029" />
   </contests>
   <parties>
-    <party id="1" nm="Democratic" ab="Dem" des="" s="1" />
-    <party id="2" nm="Republican" ab="Rep" des="" s="2" />
-    <party id="3" nm="Conservative" ab="Con" des="" s="3" />
-    <party id="4" nm="Working Families" ab="WF" des="" s="4" />
-    <party id="5" nm="Independence" ab="Ind" des="" s="5" />
+    <party id="1" nm="Democratic" ab="DEM" des="" s="1" />
+    <party id="2" nm="Republican" ab="REP" des="" s="2" />
+    <party id="3" nm="Conservative" ab="CON" des="" s="3" />
+    <party id="4" nm="Working Families" ab="WOR" des="" s="4" />
+    <party id="5" nm="Independence" ab="IND" des="" s="5" />
+    <party id="6" nm="Green" ab="GRN" des="" s="6" />
+    <party id="7" nm="Socialism and Lib" ab="PSL" des="" s="7" />
+    <party id="8" nm="Libertarian" ab="LBT" des="" s="8" />
+    <party id="9" nm="Constitution" ab="CST" des="" s="9" />
+    <party id="10" nm="Common Sense" ab="CSP" des="" s="10" />
   </parties>
   <choices>
-    <choice id="1" nm="Johnny G Destino" conid="1001" wr="0" dis="0" inc="0" s="1" />
-    <choice id="2" nm="George D Maziarz" conid="1001" wr="0" dis="0" inc="0" s="2" />
-    <choice id="3" nm="Write-in" conid="1001" wr="1" dis="0" inc="0" s="3" />
-    <choice id="4" nm="Amy Hope Witryol" conid="1002" wr="0" dis="0" inc="0" s="4" />
-    <choice id="5" nm="Timothy D Moriarty" conid="1002" wr="0" dis="0" inc="0" s="5" />
-    <choice id="6" nm="Write-in" conid="1002" wr="1" dis="0" inc="0" s="6" />
-    <choice id="7" nm="David F Gantt" conid="1003" wr="0" dis="0" inc="0" s="7" />
-    <choice id="8" nm="Jose A Cruz" conid="1003" wr="0" dis="0" inc="0" s="8" />
-    <choice id="9" nm="John F Lightfoot" conid="1003" wr="0" dis="0" inc="0" s="9" />
-    <choice id="10" nm="Write-in" conid="1003" wr="1" dis="0" inc="0" s="10" />
-    <choice id="11" nm="Bill Nojay" conid="1004" wr="0" dis="0" inc="0" s="11" />
-    <choice id="12" nm="Richard E Burke" conid="1004" wr="0" dis="0" inc="0" s="12" />
-    <choice id="13" nm="Write-in" conid="1004" wr="1" dis="0" inc="0" s="13" />
-    <choice id="14" nm="Susan Gioia" conid="1005" wr="0" dis="0" inc="0" s="14" />
-    <choice id="15" nm="Stefanie Sofia" conid="1005" wr="0" dis="0" inc="0" s="15" />
-    <choice id="16" nm="Helen Nesser" conid="1005" wr="0" dis="0" inc="0" s="16" />
-    <choice id="17" nm="Kelly J Corryn" conid="1005" wr="0" dis="0" inc="0" s="17" />
-    <choice id="18" nm="Write-in" conid="1005" wr="1" dis="0" inc="0" s="18" />
-    <choice id="19" nm="Charles A Castiglia" conid="1006" wr="0" dis="0" inc="0" s="19" />
-    <choice id="20" nm="Raymond F Gallagher" conid="1006" wr="0" dis="0" inc="0" s="20" />
-    <choice id="21" nm="Harold W Schroeder" conid="1006" wr="0" dis="0" inc="0" s="21" />
-    <choice id="22" nm="Remy C Orffeo" conid="1006" wr="0" dis="0" inc="0" s="22" />
-    <choice id="23" nm="John R Pitillo" conid="1006" wr="0" dis="0" inc="0" s="23" />
-    <choice id="24" nm="Stanley E Travis" conid="1006" wr="0" dis="0" inc="0" s="24" />
-    <choice id="25" nm="Arthur R Munger" conid="1006" wr="0" dis="0" inc="0" s="25" />
-    <choice id="26" nm="Michael Kloppel" conid="1006" wr="0" dis="0" inc="0" s="26" />
-    <choice id="27" nm="Allen Lofthouse" conid="1006" wr="0" dis="0" inc="0" s="27" />
-    <choice id="28" nm="Curtis A Laraby" conid="1006" wr="0" dis="0" inc="0" s="28" />
-    <choice id="29" nm="Jason J McGuire" conid="1006" wr="0" dis="0" inc="0" s="29" />
-    <choice id="30" nm="Albert Monaco" conid="1006" wr="0" dis="0" inc="0" s="30" />
-    <choice id="31" nm="William L Ross" conid="1006" wr="0" dis="0" inc="0" s="31" />
-    <choice id="32" nm="Joanna M Marble" conid="1006" wr="0" dis="0" inc="0" s="32" />
-    <choice id="33" nm="Linda W Blackley" conid="1006" wr="0" dis="0" inc="0" s="33" />
-    <choice id="34" nm="Patricia A McCabe" conid="1006" wr="0" dis="0" inc="0" s="34" />
-    <choice id="35" nm="Kristina L Ginty" conid="1006" wr="0" dis="0" inc="0" s="35" />
-    <choice id="36" nm="Mildred E Hoefer" conid="1006" wr="0" dis="0" inc="0" s="36" />
-    <choice id="37" nm="Whitney E Blackley" conid="1006" wr="0" dis="0" inc="0" s="37" />
-    <choice id="38" nm="James B Sobczyk" conid="1006" wr="0" dis="0" inc="0" s="38" />
-    <choice id="39" nm="Philip B Haylett" conid="1006" wr="0" dis="0" inc="0" s="39" />
-    <choice id="40" nm="Michael J Weiss" conid="1006" wr="0" dis="0" inc="0" s="40" />
-    <choice id="41" nm="Joey P DeLabio" conid="1006" wr="0" dis="0" inc="0" s="41" />
-    <choice id="42" nm="Charles S Mattina" conid="1006" wr="0" dis="0" inc="0" s="42" />
-    <choice id="43" nm="Write-in" conid="1006" wr="1" dis="0" inc="0" s="43" />
-    <choice id="44" nm="David F Gantt" conid="1007" wr="0" dis="0" inc="0" s="44" />
-    <choice id="45" nm="Jose A Cruz" conid="1007" wr="0" dis="0" inc="0" s="45" />
-    <choice id="46" nm="Write-in" conid="1007" wr="1" dis="0" inc="0" s="46" />
-    <choice id="47" nm="David P Bonacchi" conid="1008" wr="0" dis="0" inc="0" s="47" />
-    <choice id="48" nm="Dennis J Greco" conid="1008" wr="0" dis="0" inc="0" s="48" />
-    <choice id="49" nm="Write-in" conid="1008" wr="1" dis="0" inc="0" s="49" />
-    <choice id="50" nm="Matthew J Simpson" conid="1009" wr="0" dis="0" inc="0" s="50" />
-    <choice id="51" nm="Charlene M Jackson" conid="1009" wr="0" dis="0" inc="0" s="51" />
-    <choice id="52" nm="Eleanor G Lee" conid="1009" wr="0" dis="0" inc="0" s="52" />
-    <choice id="53" nm="Frances M Grillo" conid="1009" wr="0" dis="0" inc="0" s="53" />
-    <choice id="54" nm="David M Alvarado" conid="1009" wr="0" dis="0" inc="0" s="54" />
-    <choice id="55" nm="Bobbie Brown" conid="1009" wr="0" dis="0" inc="0" s="55" />
-    <choice id="56" nm="Aaron Nesmith" conid="1009" wr="0" dis="0" inc="0" s="56" />
-    <choice id="57" nm="Lola D Harris" conid="1009" wr="0" dis="0" inc="0" s="57" />
-    <choice id="58" nm="Write-in" conid="1009" wr="1" dis="0" inc="0" s="58" />
-    <choice id="59" nm="Courtney K Lattimore" conid="1010" wr="0" dis="0" inc="0" s="59" />
-    <choice id="60" nm="Tonya N Dickerson" conid="1010" wr="0" dis="0" inc="0" s="60" />
-    <choice id="61" nm="Jennifer M Schaeffer" conid="1010" wr="0" dis="0" inc="0" s="61" />
-    <choice id="62" nm="India L Washington" conid="1010" wr="0" dis="0" inc="0" s="62" />
-    <choice id="63" nm="Lamaya B Austin" conid="1010" wr="0" dis="0" inc="0" s="63" />
-    <choice id="64" nm="Angelena Singletary" conid="1010" wr="0" dis="0" inc="0" s="64" />
-    <choice id="65" nm="Rhumenia G Singletary" conid="1010" wr="0" dis="0" inc="0" s="65" />
-    <choice id="66" nm="Write-in" conid="1010" wr="1" dis="0" inc="0" s="66" />
-    <choice id="67" nm="Shacora L Cooper" conid="1011" wr="0" dis="0" inc="0" s="67" />
-    <choice id="68" nm="Andrea C Williams" conid="1011" wr="0" dis="0" inc="0" s="68" />
-    <choice id="69" nm="Kayra I Alomar" conid="1011" wr="0" dis="0" inc="0" s="69" />
-    <choice id="70" nm="Senitra S Rodgers" conid="1011" wr="0" dis="0" inc="0" s="70" />
-    <choice id="71" nm="Christopher JD Williams" conid="1011" wr="0" dis="0" inc="0" s="71" />
-    <choice id="72" nm="Sharniece A Jackson" conid="1011" wr="0" dis="0" inc="0" s="72" />
-    <choice id="73" nm="Write-in" conid="1011" wr="1" dis="0" inc="0" s="73" />
-    <choice id="74" nm="Sherae W C Gayle" conid="1012" wr="0" dis="0" inc="0" s="74" />
-    <choice id="75" nm="Annette Hampton-David" conid="1012" wr="0" dis="0" inc="0" s="75" />
-    <choice id="76" nm="Trelawney K McCoy" conid="1012" wr="0" dis="0" inc="0" s="76" />
-    <choice id="77" nm="Melanie M Funchess" conid="1012" wr="0" dis="0" inc="0" s="77" />
-    <choice id="78" nm="Recia M Wright" conid="1012" wr="0" dis="0" inc="0" s="78" />
-    <choice id="79" nm="Yolanda I Montalvo" conid="1012" wr="0" dis="0" inc="0" s="79" />
-    <choice id="80" nm="West Kearse" conid="1012" wr="0" dis="0" inc="0" s="80" />
-    <choice id="81" nm="Write-in" conid="1012" wr="1" dis="0" inc="0" s="81" />
-    <choice id="82" nm="Demeter S Walker" conid="1013" wr="0" dis="0" inc="0" s="82" />
-    <choice id="83" nm="Daniel J Delehanty" conid="1013" wr="0" dis="0" inc="0" s="83" />
-    <choice id="84" nm="Dashanise M Henry" conid="1013" wr="0" dis="0" inc="0" s="84" />
-    <choice id="85" nm="Eursla C McNair" conid="1013" wr="0" dis="0" inc="0" s="85" />
-    <choice id="86" nm="George O Thompson 3rd" conid="1013" wr="0" dis="0" inc="0" s="86" />
-    <choice id="87" nm="Anthony J Plonczynski" conid="1013" wr="0" dis="0" inc="0" s="87" />
-    <choice id="88" nm="Laura Delehanty" conid="1013" wr="0" dis="0" inc="0" s="88" />
-    <choice id="89" nm="Paris P Appleberry" conid="1013" wr="0" dis="0" inc="0" s="89" />
-    <choice id="90" nm="Write-in" conid="1013" wr="1" dis="0" inc="0" s="90" />
-    <choice id="91" nm="Macon B Lee Jr" conid="1014" wr="0" dis="0" inc="0" s="91" />
-    <choice id="92" nm="Mary H Lesperance" conid="1014" wr="0" dis="0" inc="0" s="92" />
-    <choice id="93" nm="George H Moses" conid="1014" wr="0" dis="0" inc="0" s="93" />
-    <choice id="94" nm="Mary C Sullivan" conid="1014" wr="0" dis="0" inc="0" s="94" />
-    <choice id="95" nm="Robert C Moses" conid="1014" wr="0" dis="0" inc="0" s="95" />
-    <choice id="96" nm="Precious P Moses" conid="1014" wr="0" dis="0" inc="0" s="96" />
-    <choice id="97" nm="Marilyn J Williams" conid="1014" wr="0" dis="0" inc="0" s="97" />
-    <choice id="98" nm="Shawanda M Flagler" conid="1014" wr="0" dis="0" inc="0" s="98" />
-    <choice id="99" nm="Write-in" conid="1014" wr="1" dis="0" inc="0" s="99" />
-    <choice id="100" nm="Dwight E Hubbard Jr" conid="1015" wr="0" dis="0" inc="0" s="100" />
-    <choice id="101" nm="Lanazia Y Cato" conid="1015" wr="0" dis="0" inc="0" s="101" />
-    <choice id="102" nm="Cassandra P White" conid="1015" wr="0" dis="0" inc="0" s="102" />
-    <choice id="103" nm="Jeanette Jones" conid="1015" wr="0" dis="0" inc="0" s="103" />
-    <choice id="104" nm="Bobbi T Mitchell" conid="1015" wr="0" dis="0" inc="0" s="104" />
-    <choice id="105" nm="Vincent J Shelton" conid="1015" wr="0" dis="0" inc="0" s="105" />
-    <choice id="106" nm="Louise Morales" conid="1015" wr="0" dis="0" inc="0" s="106" />
-    <choice id="107" nm="Write-in" conid="1015" wr="1" dis="0" inc="0" s="107" />
-    <choice id="108" nm="Lori C Flemming" conid="1016" wr="0" dis="0" inc="0" s="108" />
-    <choice id="109" nm="Verlinda Strickland-Wyatt" conid="1016" wr="0" dis="0" inc="0" s="109" />
-    <choice id="110" nm="Jeffrey Wyatt" conid="1016" wr="0" dis="0" inc="0" s="110" />
-    <choice id="111" nm="Rosemary Ford" conid="1016" wr="0" dis="0" inc="0" s="111" />
-    <choice id="112" nm="Marianela Crann" conid="1016" wr="0" dis="0" inc="0" s="112" />
-    <choice id="113" nm="Heriberto Cruzsein" conid="1016" wr="0" dis="0" inc="0" s="113" />
-    <choice id="114" nm="Marcos O Cruz" conid="1016" wr="0" dis="0" inc="0" s="114" />
-    <choice id="115" nm="James B Thompson" conid="1016" wr="0" dis="0" inc="0" s="115" />
-    <choice id="116" nm="Write-in" conid="1016" wr="1" dis="0" inc="0" s="116" />
-    <choice id="117" nm="Joseph C Foster Jr" conid="1017" wr="0" dis="0" inc="0" s="117" />
-    <choice id="118" nm="Carlos O Rivera" conid="1017" wr="0" dis="0" inc="0" s="118" />
-    <choice id="119" nm="Michael J Dorofy" conid="1017" wr="0" dis="0" inc="0" s="119" />
-    <choice id="120" nm="Sharon Cruzsein" conid="1017" wr="0" dis="0" inc="0" s="120" />
-    <choice id="121" nm="Katrina L Rivera" conid="1017" wr="0" dis="0" inc="0" s="121" />
-    <choice id="122" nm="Regina K Flemming" conid="1017" wr="0" dis="0" inc="0" s="122" />
-    <choice id="123" nm="Pamela J Brown" conid="1017" wr="0" dis="0" inc="0" s="123" />
-    <choice id="124" nm="Write-in" conid="1017" wr="1" dis="0" inc="0" s="124" />
-    <choice id="125" nm="Bonnie L Wells" conid="1018" wr="0" dis="0" inc="0" s="125" />
-    <choice id="126" nm="Margarita G Reyes" conid="1018" wr="0" dis="0" inc="0" s="126" />
-    <choice id="127" nm="Alfredo Ortiz" conid="1018" wr="0" dis="0" inc="0" s="127" />
-    <choice id="128" nm="Corine Irvin" conid="1018" wr="0" dis="0" inc="0" s="128" />
-    <choice id="129" nm="John R Gordon" conid="1018" wr="0" dis="0" inc="0" s="129" />
-    <choice id="130" nm="Annie B Peterson" conid="1018" wr="0" dis="0" inc="0" s="130" />
-    <choice id="131" nm="Yolanda I Colon" conid="1018" wr="0" dis="0" inc="0" s="131" />
-    <choice id="132" nm="Elizabeth Ortiz" conid="1018" wr="0" dis="0" inc="0" s="132" />
-    <choice id="133" nm="Write-in" conid="1018" wr="1" dis="0" inc="0" s="133" />
-    <choice id="134" nm="Amon P Hudson" conid="1019" wr="0" dis="0" inc="0" s="134" />
-    <choice id="135" nm="Dennis P Francione" conid="1019" wr="0" dis="0" inc="0" s="135" />
-    <choice id="136" nm="Todd J Speranza" conid="1019" wr="0" dis="0" inc="0" s="136" />
-    <choice id="137" nm="David W Herbst" conid="1019" wr="0" dis="0" inc="0" s="137" />
-    <choice id="138" nm="Benjamin L Douglas" conid="1019" wr="0" dis="0" inc="0" s="138" />
-    <choice id="139" nm="Write-in" conid="1019" wr="1" dis="0" inc="0" s="139" />
-    <choice id="140" nm="Sharon G Hill" conid="1020" wr="0" dis="0" inc="0" s="140" />
-    <choice id="141" nm="Angel L Alicea" conid="1020" wr="0" dis="0" inc="0" s="141" />
-    <choice id="142" nm="Ricardo Vega Jr" conid="1020" wr="0" dis="0" inc="0" s="142" />
-    <choice id="143" nm="Julio Jordan" conid="1020" wr="0" dis="0" inc="0" s="143" />
-    <choice id="144" nm="Hattie G Scott" conid="1020" wr="0" dis="0" inc="0" s="144" />
-    <choice id="145" nm="Arthur L Hill" conid="1020" wr="0" dis="0" inc="0" s="145" />
-    <choice id="146" nm="Bobbie Jean Martin" conid="1020" wr="0" dis="0" inc="0" s="146" />
-    <choice id="147" nm="Write-in" conid="1020" wr="1" dis="0" inc="0" s="147" />
+    <choice id="1" nm="Barack Obama - Joe Biden" conid="1001" wr="0" dis="0" inc="0" s="1" />
+    <choice id="2" nm="Mitt Romney - Paul Ryan" conid="1001" wr="0" dis="0" inc="0" s="2" />
+    <choice id="3" nm="Jill Stein - Cheri Honkala" conid="1001" wr="0" dis="0" inc="0" s="3" />
+    <choice id="4" nm="Peta Lindsay - Yari Osorio" conid="1001" wr="0" dis="0" inc="0" s="4" />
+    <choice id="5" nm="Gary Johnson - James P Gray" conid="1001" wr="0" dis="0" inc="0" s="5" />
+    <choice id="6" nm="Virgil Goode - Jim Clymer" conid="1001" wr="0" dis="0" inc="0" s="6" />
+    <choice id="7" nm="Write-in" conid="1001" wr="1" dis="0" inc="0" s="7" />
+    <choice id="8" nm="Kirsten E Gillibrand" conid="1002" wr="0" dis="0" inc="0" s="8" />
+    <choice id="9" nm="Wendy Long" conid="1002" wr="0" dis="0" inc="0" s="9" />
+    <choice id="10" nm="Colia Clark" conid="1002" wr="0" dis="0" inc="0" s="10" />
+    <choice id="11" nm="Chris Edes" conid="1002" wr="0" dis="0" inc="0" s="11" />
+    <choice id="12" nm="John Mangelli" conid="1002" wr="0" dis="0" inc="0" s="12" />
+    <choice id="13" nm="Write-in" conid="1002" wr="1" dis="0" inc="0" s="13" />
+    <choice id="14" nm="Sean E Gleason" conid="1003" wr="0" dis="0" inc="0" s="14" />
+    <choice id="15" nm="Gail Donofrio" conid="1003" wr="0" dis="0" inc="0" s="16" />
+    <choice id="16" nm="J Scott Odorisi" conid="1003" wr="0" dis="0" inc="0" s="15" />
+    <choice id="17" nm="David Michael Barry" conid="1003" wr="0" dis="0" inc="0" s="17" />
+    <choice id="18" nm="Write-in" conid="1003" wr="1" dis="0" inc="0" s="18" />
+    <choice id="19" nm="Louise M Slaughter" conid="1004" wr="0" dis="0" inc="0" s="19" />
+    <choice id="20" nm="Maggie Brooks" conid="1004" wr="0" dis="0" inc="0" s="20" />
+    <choice id="21" nm="Write-in" conid="1004" wr="1" dis="0" inc="0" s="21" />
+    <choice id="22" nm="Kathy C Hochul" conid="1005" wr="0" dis="0" inc="0" s="22" />
+    <choice id="23" nm="Chris Collins" conid="1005" wr="0" dis="0" inc="0" s="23" />
+    <choice id="24" nm="Write-in" conid="1005" wr="1" dis="0" inc="0" s="24" />
+    <choice id="25" nm="Michael F Nozzolio" conid="1006" wr="0" dis="0" inc="0" s="25" />
+    <choice id="26" nm="Write-in" conid="1006" wr="1" dis="0" inc="0" s="26" />
+    <choice id="27" nm="Ted O'Brien" conid="1007" wr="0" dis="0" inc="0" s="27" />
+    <choice id="28" nm="Sean T Hanna" conid="1007" wr="0" dis="0" inc="0" s="28" />
+    <choice id="29" nm="Write-in" conid="1007" wr="1" dis="0" inc="0" s="29" />
+    <choice id="30" nm="Joseph E Robach" conid="1008" wr="0" dis="0" inc="0" s="30" />
+    <choice id="31" nm="Write-in" conid="1008" wr="1" dis="0" inc="0" s="31" />
+    <choice id="32" nm="Patrick M Gallivan" conid="1009" wr="0" dis="0" inc="0" s="32" />
+    <choice id="33" nm="Write-in" conid="1009" wr="1" dis="0" inc="0" s="33" />
+    <choice id="34" nm="Justin M Rooney" conid="1010" wr="0" dis="0" inc="0" s="34" />
+    <choice id="35" nm="Michael H Ranzenhofer" conid="1010" wr="0" dis="0" inc="0" s="35" />
+    <choice id="36" nm="Write-in" conid="1010" wr="1" dis="0" inc="0" s="36" />
+    <choice id="37" nm="Amy Hope Witryol" conid="1011" wr="0" dis="0" inc="0" s="37" />
+    <choice id="38" nm="George D Maziarz" conid="1011" wr="0" dis="0" inc="0" s="38" />
+    <choice id="39" nm="Jonathon B Benedict" conid="1011" wr="0" dis="0" inc="0" s="39" />
+    <choice id="40" nm="Write-in" conid="1011" wr="1" dis="0" inc="0" s="40" />
+    <choice id="41" nm="Randolph J Weaver" conid="1012" wr="0" dis="0" inc="0" s="41" />
+    <choice id="42" nm="Bill Nojay" conid="1012" wr="0" dis="0" inc="0" s="42" />
+    <choice id="43" nm="Richard E Burke" conid="1012" wr="0" dis="0" inc="0" s="43" />
+    <choice id="44" nm="Write-in" conid="1012" wr="1" dis="0" inc="0" s="44" />
+    <choice id="45" nm="Bill Reilich" conid="1013" wr="0" dis="0" inc="0" s="45" />
+    <choice id="46" nm="Write-in" conid="1013" wr="1" dis="0" inc="0" s="46" />
+    <choice id="47" nm="David R Koon" conid="1014" wr="0" dis="0" inc="0" s="47" />
+    <choice id="48" nm="Mark C Johns" conid="1014" wr="0" dis="0" inc="0" s="48" />
+    <choice id="49" nm="Write-in" conid="1014" wr="1" dis="0" inc="0" s="49" />
+    <choice id="50" nm="Joseph D Morelle" conid="1015" wr="0" dis="0" inc="0" s="50" />
+    <choice id="51" nm="Write-in" conid="1015" wr="1" dis="0" inc="0" s="51" />
+    <choice id="52" nm="David F Gantt" conid="1016" wr="0" dis="0" inc="0" s="52" />
+    <choice id="53" nm="Andrew P Langdon" conid="1016" wr="0" dis="0" inc="0" s="53" />
+    <choice id="54" nm="Write-in" conid="1016" wr="1" dis="0" inc="0" s="54" />
+    <choice id="55" nm="Harry B Bronson" conid="1017" wr="0" dis="0" inc="0" s="55" />
+    <choice id="56" nm="Peterson A Vazquez" conid="1017" wr="0" dis="0" inc="0" s="56" />
+    <choice id="57" nm="Write-in" conid="1017" wr="1" dis="0" inc="0" s="57" />
+    <choice id="58" nm="Stephen M Hawley" conid="1018" wr="0" dis="0" inc="0" s="58" />
+    <choice id="59" nm="Mark E Glogowski" conid="1018" wr="0" dis="0" inc="0" s="59" />
+    <choice id="60" nm="Write-in" conid="1018" wr="1" dis="0" inc="0" s="60" />
+    <choice id="61" nm="Susan M Vandervoort" conid="1019" wr="0" dis="0" inc="0" s="61" />
+    <choice id="62" nm="Cheryl Dinolfo" conid="1019" wr="0" dis="0" inc="0" s="62" />
+    <choice id="63" nm="Write-in" conid="1019" wr="1" dis="0" inc="0" s="63" />
+    <choice id="64" nm="Stephanie Aldersley" conid="1020" wr="0" dis="0" inc="0" s="64" />
+    <choice id="65" nm="Joe Carbone" conid="1020" wr="0" dis="0" inc="0" s="65" />
+    <choice id="66" nm="Write-in" conid="1020" wr="1" dis="0" inc="0" s="66" />
+    <choice id="67" nm="Ellen M Yacknin" conid="1021" wr="0" dis="0" inc="0" s="67" />
+    <choice id="68" nm="Write-in" conid="1021" wr="1" dis="0" inc="0" s="68" />
+    <choice id="69" nm="John A Falk" conid="1022" wr="0" dis="0" inc="0" s="69" />
+    <choice id="70" nm="Write-in" conid="1022" wr="1" dis="0" inc="0" s="70" />
+    <choice id="71" nm="Henry E Kirch" conid="1023" wr="0" dis="0" inc="0" s="71" />
+    <choice id="72" nm="Write-in" conid="1023" wr="1" dis="0" inc="0" s="72" />
+    <choice id="73" nm="Dennis J Greco" conid="1024" wr="0" dis="0" inc="0" s="73" />
+    <choice id="74" nm="David P Bonacchi" conid="1024" wr="0" dis="0" inc="0" s="74" />
+    <choice id="75" nm="Write-in" conid="1024" wr="1" dis="0" inc="0" s="75" />
+    <choice id="76" nm="Jason M Baxter" conid="1025" wr="0" dis="0" inc="0" s="76" />
+    <choice id="77" nm="Write-in" conid="1025" wr="1" dis="0" inc="0" s="77" />
+    <choice id="78" nm="Joe Rosenshein" conid="1026" wr="0" dis="0" inc="0" s="78" />
+    <choice id="79" nm="John E Rooney" conid="1026" wr="0" dis="0" inc="0" s="79" />
+    <choice id="80" nm="Write-in" conid="1026" wr="1" dis="0" inc="0" s="80" />
+    <choice id="81" nm="Tina M Brown" conid="1027" wr="0" dis="0" inc="0" s="81" />
+    <choice id="82" nm="Write-in" conid="1027" wr="1" dis="0" inc="0" s="82" />
+    <choice id="83" nm="Irena Skrobach" conid="1028" wr="0" dis="0" inc="0" s="83" />
+    <choice id="84" nm="Peter Kelderhouse" conid="1028" wr="0" dis="0" inc="0" s="84" />
+    <choice id="85" nm="Write-in" conid="1028" wr="1" dis="0" inc="0" s="85" />
+    <choice id="86" nm="YES" conid="1029" wr="0" dis="0" inc="0" s="86" />
+    <choice id="87" nm="NO" conid="1029" wr="0" dis="0" inc="0" s="87" />
   </choices>
   <affiliations>
-    <aff chid="1" pid="2" s="1" />
-    <aff chid="2" pid="2" s="2" />
-    <aff chid="4" pid="4" s="3" />
-    <aff chid="5" pid="4" s="4" />
-    <aff chid="7" pid="1" s="5" />
-    <aff chid="8" pid="1" s="6" />
-    <aff chid="9" pid="1" s="7" />
-    <aff chid="11" pid="2" s="8" />
-    <aff chid="12" pid="2" s="9" />
-    <aff chid="14" pid="5" s="10" />
-    <aff chid="15" pid="5" s="11" />
-    <aff chid="16" pid="5" s="12" />
-    <aff chid="17" pid="5" s="13" />
-    <aff chid="19" pid="3" s="14" />
-    <aff chid="20" pid="3" s="15" />
-    <aff chid="21" pid="3" s="16" />
-    <aff chid="22" pid="3" s="17" />
-    <aff chid="23" pid="3" s="18" />
-    <aff chid="24" pid="3" s="19" />
-    <aff chid="25" pid="3" s="20" />
-    <aff chid="26" pid="3" s="21" />
-    <aff chid="27" pid="3" s="22" />
-    <aff chid="28" pid="3" s="23" />
-    <aff chid="29" pid="3" s="24" />
-    <aff chid="30" pid="3" s="25" />
-    <aff chid="31" pid="3" s="26" />
-    <aff chid="32" pid="3" s="27" />
-    <aff chid="33" pid="3" s="28" />
-    <aff chid="34" pid="3" s="29" />
-    <aff chid="35" pid="3" s="30" />
-    <aff chid="36" pid="3" s="31" />
-    <aff chid="37" pid="3" s="32" />
-    <aff chid="38" pid="3" s="33" />
-    <aff chid="39" pid="3" s="34" />
-    <aff chid="40" pid="3" s="35" />
-    <aff chid="41" pid="3" s="36" />
-    <aff chid="42" pid="3" s="37" />
-    <aff chid="44" pid="1" s="38" />
-    <aff chid="45" pid="1" s="39" />
-    <aff chid="47" pid="5" s="40" />
-    <aff chid="48" pid="5" s="41" />
-    <aff chid="50" pid="1" s="42" />
-    <aff chid="51" pid="1" s="43" />
-    <aff chid="52" pid="1" s="44" />
-    <aff chid="53" pid="1" s="45" />
-    <aff chid="54" pid="1" s="46" />
-    <aff chid="55" pid="1" s="47" />
-    <aff chid="56" pid="1" s="48" />
-    <aff chid="57" pid="1" s="49" />
-    <aff chid="59" pid="1" s="50" />
-    <aff chid="60" pid="1" s="51" />
-    <aff chid="61" pid="1" s="52" />
-    <aff chid="62" pid="1" s="53" />
-    <aff chid="63" pid="1" s="54" />
-    <aff chid="64" pid="1" s="55" />
-    <aff chid="65" pid="1" s="56" />
-    <aff chid="67" pid="1" s="57" />
-    <aff chid="68" pid="1" s="58" />
-    <aff chid="69" pid="1" s="59" />
-    <aff chid="70" pid="1" s="60" />
-    <aff chid="71" pid="1" s="61" />
-    <aff chid="72" pid="1" s="62" />
-    <aff chid="74" pid="1" s="63" />
-    <aff chid="75" pid="1" s="64" />
-    <aff chid="76" pid="1" s="65" />
-    <aff chid="77" pid="1" s="66" />
-    <aff chid="78" pid="1" s="67" />
-    <aff chid="79" pid="1" s="68" />
-    <aff chid="80" pid="1" s="69" />
-    <aff chid="82" pid="1" s="70" />
-    <aff chid="83" pid="1" s="71" />
-    <aff chid="84" pid="1" s="72" />
-    <aff chid="85" pid="1" s="73" />
-    <aff chid="86" pid="1" s="74" />
-    <aff chid="87" pid="1" s="75" />
-    <aff chid="88" pid="1" s="76" />
-    <aff chid="89" pid="1" s="77" />
-    <aff chid="91" pid="1" s="78" />
-    <aff chid="92" pid="1" s="79" />
-    <aff chid="93" pid="1" s="80" />
-    <aff chid="94" pid="1" s="81" />
-    <aff chid="95" pid="1" s="82" />
-    <aff chid="96" pid="1" s="83" />
-    <aff chid="97" pid="1" s="84" />
-    <aff chid="98" pid="1" s="85" />
-    <aff chid="100" pid="1" s="86" />
-    <aff chid="101" pid="1" s="87" />
-    <aff chid="102" pid="1" s="88" />
-    <aff chid="103" pid="1" s="89" />
-    <aff chid="104" pid="1" s="90" />
-    <aff chid="105" pid="1" s="91" />
-    <aff chid="106" pid="1" s="92" />
-    <aff chid="108" pid="1" s="93" />
-    <aff chid="109" pid="1" s="94" />
-    <aff chid="110" pid="1" s="95" />
-    <aff chid="111" pid="1" s="96" />
-    <aff chid="112" pid="1" s="97" />
-    <aff chid="113" pid="1" s="98" />
-    <aff chid="114" pid="1" s="99" />
-    <aff chid="115" pid="1" s="100" />
-    <aff chid="117" pid="1" s="101" />
-    <aff chid="118" pid="1" s="102" />
-    <aff chid="119" pid="1" s="103" />
-    <aff chid="120" pid="1" s="104" />
-    <aff chid="121" pid="1" s="105" />
-    <aff chid="122" pid="1" s="106" />
-    <aff chid="123" pid="1" s="107" />
-    <aff chid="125" pid="1" s="108" />
-    <aff chid="126" pid="1" s="109" />
-    <aff chid="127" pid="1" s="110" />
-    <aff chid="128" pid="1" s="111" />
-    <aff chid="129" pid="1" s="112" />
-    <aff chid="130" pid="1" s="113" />
-    <aff chid="131" pid="1" s="114" />
-    <aff chid="132" pid="1" s="115" />
-    <aff chid="134" pid="1" s="116" />
-    <aff chid="135" pid="1" s="117" />
-    <aff chid="136" pid="1" s="118" />
-    <aff chid="137" pid="1" s="119" />
-    <aff chid="138" pid="1" s="120" />
-    <aff chid="140" pid="1" s="121" />
-    <aff chid="141" pid="1" s="122" />
-    <aff chid="142" pid="1" s="123" />
-    <aff chid="143" pid="1" s="124" />
-    <aff chid="144" pid="1" s="125" />
-    <aff chid="145" pid="1" s="126" />
-    <aff chid="146" pid="1" s="127" />
+    <aff chid="1" pid="1" s="1" />
+    <aff chid="1" pid="4" s="2" />
+    <aff chid="2" pid="3" s="3" />
+    <aff chid="2" pid="2" s="4" />
+    <aff chid="3" pid="6" s="5" />
+    <aff chid="4" pid="7" s="6" />
+    <aff chid="5" pid="8" s="7" />
+    <aff chid="6" pid="9" s="8" />
+    <aff chid="8" pid="1" s="9" />
+    <aff chid="8" pid="5" s="10" />
+    <aff chid="8" pid="4" s="11" />
+    <aff chid="9" pid="2" s="12" />
+    <aff chid="9" pid="3" s="13" />
+    <aff chid="10" pid="6" s="14" />
+    <aff chid="11" pid="8" s="15" />
+    <aff chid="12" pid="10" s="16" />
+    <aff chid="14" pid="1" s="17" />
+    <aff chid="15" pid="4" s="20" />
+    <aff chid="15" pid="2" s="21" />
+    <aff chid="15" pid="3" s="22" />
+    <aff chid="16" pid="4" s="18" />
+    <aff chid="16" pid="1" s="19" />
+    <aff chid="17" pid="2" s="23" />
+    <aff chid="17" pid="3" s="24" />
+    <aff chid="19" pid="1" s="25" />
+    <aff chid="19" pid="4" s="26" />
+    <aff chid="20" pid="2" s="27" />
+    <aff chid="20" pid="3" s="28" />
+    <aff chid="20" pid="5" s="29" />
+    <aff chid="22" pid="4" s="30" />
+    <aff chid="22" pid="1" s="31" />
+    <aff chid="23" pid="2" s="32" />
+    <aff chid="23" pid="3" s="33" />
+    <aff chid="25" pid="3" s="34" />
+    <aff chid="25" pid="2" s="35" />
+    <aff chid="25" pid="5" s="36" />
+    <aff chid="27" pid="4" s="37" />
+    <aff chid="27" pid="1" s="38" />
+    <aff chid="28" pid="2" s="39" />
+    <aff chid="28" pid="3" s="40" />
+    <aff chid="28" pid="5" s="41" />
+    <aff chid="30" pid="5" s="42" />
+    <aff chid="30" pid="2" s="43" />
+    <aff chid="30" pid="3" s="44" />
+    <aff chid="32" pid="3" s="45" />
+    <aff chid="32" pid="5" s="46" />
+    <aff chid="32" pid="2" s="47" />
+    <aff chid="34" pid="1" s="48" />
+    <aff chid="34" pid="4" s="49" />
+    <aff chid="35" pid="2" s="50" />
+    <aff chid="35" pid="5" s="51" />
+    <aff chid="35" pid="3" s="52" />
+    <aff chid="37" pid="1" s="53" />
+    <aff chid="37" pid="4" s="54" />
+    <aff chid="38" pid="3" s="55" />
+    <aff chid="38" pid="5" s="56" />
+    <aff chid="38" pid="2" s="57" />
+    <aff chid="39" pid="6" s="58" />
+    <aff chid="41" pid="1" s="59" />
+    <aff chid="42" pid="2" s="60" />
+    <aff chid="42" pid="5" s="61" />
+    <aff chid="43" pid="3" s="62" />
+    <aff chid="45" pid="2" s="63" />
+    <aff chid="45" pid="5" s="64" />
+    <aff chid="45" pid="3" s="65" />
+    <aff chid="47" pid="1" s="66" />
+    <aff chid="48" pid="2" s="67" />
+    <aff chid="48" pid="3" s="68" />
+    <aff chid="48" pid="5" s="69" />
+    <aff chid="50" pid="1" s="70" />
+    <aff chid="50" pid="5" s="71" />
+    <aff chid="52" pid="1" s="72" />
+    <aff chid="53" pid="6" s="73" />
+    <aff chid="55" pid="4" s="74" />
+    <aff chid="55" pid="1" s="75" />
+    <aff chid="55" pid="5" s="76" />
+    <aff chid="56" pid="2" s="77" />
+    <aff chid="56" pid="3" s="78" />
+    <aff chid="58" pid="3" s="79" />
+    <aff chid="58" pid="5" s="80" />
+    <aff chid="58" pid="2" s="81" />
+    <aff chid="59" pid="8" s="82" />
+    <aff chid="61" pid="1" s="83" />
+    <aff chid="62" pid="3" s="84" />
+    <aff chid="62" pid="5" s="85" />
+    <aff chid="62" pid="2" s="86" />
+    <aff chid="64" pid="1" s="87" />
+    <aff chid="65" pid="4" s="88" />
+    <aff chid="65" pid="3" s="89" />
+    <aff chid="65" pid="2" s="90" />
+    <aff chid="65" pid="5" s="91" />
+    <aff chid="67" pid="1" s="92" />
+    <aff chid="69" pid="1" s="93" />
+    <aff chid="71" pid="2" s="94" />
+    <aff chid="71" pid="5" s="95" />
+    <aff chid="71" pid="3" s="96" />
+    <aff chid="73" pid="1" s="97" />
+    <aff chid="74" pid="4" s="98" />
+    <aff chid="74" pid="5" s="99" />
+    <aff chid="74" pid="2" s="100" />
+    <aff chid="74" pid="3" s="101" />
+    <aff chid="76" pid="2" s="102" />
+    <aff chid="76" pid="5" s="103" />
+    <aff chid="76" pid="3" s="104" />
+    <aff chid="78" pid="1" s="105" />
+    <aff chid="79" pid="2" s="106" />
+    <aff chid="79" pid="5" s="107" />
+    <aff chid="79" pid="3" s="108" />
+    <aff chid="81" pid="2" s="109" />
+    <aff chid="81" pid="3" s="110" />
+    <aff chid="81" pid="5" s="111" />
+    <aff chid="83" pid="4" s="112" />
+    <aff chid="83" pid="1" s="113" />
+    <aff chid="84" pid="5" s="114" />
+    <aff chid="84" pid="2" s="115" />
   </affiliations>
 </election>
