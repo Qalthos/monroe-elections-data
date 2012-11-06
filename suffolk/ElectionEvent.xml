@@ -89,4 +89,79 @@
     <office id="9" nm="State Senator, 1st Senatorial District" atid="0" tp="" sys="" maj="0" s="9" />
     <office id="10" nm="State Senator, 2nd Senatorial District" atid="0" tp="" sys="" maj="0" s="10" />
     <office id="11" nm="State Senator, 3rd Senatorial District" atid="0" tp="" sys="" maj="0" s="11" />
-    <office id="
+    <office id="12" nm="State Senator, 4th Senatorial District" atid="0" tp="" sys="" maj="0" s="12" />
+    <office id="13" nm="State Senator, 5th Senatorial District" atid="0" tp="" sys="" maj="0" s="13" />
+    <office id="14" nm="State Senator, 8th Senatorial District" atid="0" tp="" sys="" maj="0" s="14" />
+    <office id="15" nm="Member of Assembly, 1st Assembly District" atid="0" tp="" sys="" maj="0" s="15" />
+    <office id="16" nm="Member of Assembly, 2nd Assembly District" atid="0" tp="" sys="" maj="0" s="16" />
+    <office id="17" nm="Member of Assembly, 3rd Assembly District" atid="0" tp="" sys="" maj="0" s="17" />
+    <office id="18" nm="Member of Assembly, 4th Assembly District" atid="0" tp="" sys="" maj="0" s="18" />
+    <office id="19" nm="Member of Assembly, 5th Assembly District" atid="0" tp="" sys="" maj="0" s="19" />
+    <office id="20" nm="Member of Assembly, 6th Assembly District" atid="0" tp="" sys="" maj="0" s="20" />
+    <office id="21" nm="Member of Assembly, 7th Assembly District" atid="0" tp="" sys="" maj="0" s="21" />
+    <office id="22" nm="Member of Assembly, 8th Assembly District" atid="0" tp="" sys="" maj="0" s="22" />
+    <office id="23" nm="Member of Assembly, 9th Assembly District" atid="0" tp="" sys="" maj="0" s="23" />
+    <office id="24" nm="Member of Assembly, 10th Assembly District" atid="0" tp="" sys="" maj="0" s="24" />
+    <office id="25" nm="Member of Assembly, 11th Assembly District" atid="0" tp="" sys="" maj="0" s="25" />
+    <office id="26" nm="Member of Assembly, 12th Assembly District" atid="0" tp="" sys="" maj="0" s="26" />
+    <office id="27" nm="District Court Judge, 2nd District, Town of Babylon" atid="0" tp="" sys="" maj="0" s="27" />
+    <office id="28" nm="Supervisor, Town of Babylon" atid="0" tp="" sys="" maj="0" s="28" />
+    <office id="29" nm="Supervisor, Town of Brookhaven" atid="0" tp="" sys="" maj="0" s="29" />
+    <office id="30" nm="District Court Judge, 3rd District, Town of Huntington" atid="0" tp="" sys="" maj="0" s="30" />
+    <office id="31" nm="Receiver of Taxes, Town of Riverhead" atid="0" tp="" sys="" maj="0" s="31" />
+    <office id="32" nm="Town Justice, Town of Riverhead" atid="0" tp="" sys="" maj="0" s="32" />
+    <office id="33" nm="Town Justice, Town of Shelter Island" atid="0" tp="" sys="" maj="0" s="33" />
+    <office id="34" nm="District Court Judge, 4th District, Town of Smithtown" atid="0" tp="" sys="" maj="0" s="34" />
+    <office id="35" nm="Town Justice, Town of Southampton" atid="0" tp="" sys="" maj="0" s="35" />
+    <office id="36" nm="Trustee, Town of Southold" atid="0" tp="" sys="" maj="0" s="36" />
+  </offices>
+  <contests>
+    <contest id="1001" nm="President and Vice President" aid="44" oid="1" pos="1" wr="1" el="0" acc="0" dis="0" s="1" />
+    <contest id="1002" nm="United States Senator" aid="44" oid="2" pos="1" wr="1" el="0" acc="0" dis="0" s="2" />
+    <contest id="1003" nm="Justice of the Supreme Court, 10th Judicial District" aid="44" oid="3" pos="6" wr="6" el="0" acc="0" dis="0" s="3" />
+    <contest id="1004" nm="County Court Judge" aid="44" oid="4" pos="2" wr="2" el="0" acc="0" dis="0" s="4" />
+    <contest id="1005" nm="Family Court Judge" aid="44" oid="5" pos="1" wr="1" el="0" acc="0" dis="0" s="5" />
+    <contest id="1006" nm="Representative in Congress, 1st Congressional District" aid="22" oid="6" pos="1" wr="1" el="0" acc="0" dis="0" s="6" />
+    <contest id="1007" nm="Representative in Congress, 2nd Congressional District" aid="59" oid="7" pos="1" wr="1" el="0" acc="0" dis="0" s="7" />
+    <contest id="1008" nm="Representative in Congress, 3rd Congressional District" aid="11" oid="8" pos="1" wr="1" el="0" acc="0" dis="0" s="8" />
+    <contest id="1009" nm="State Senator, 1st Senatorial District" aid="31" oid="9" pos="1" wr="1" el="0" acc="0" dis="0" s="9" />
+    <contest id="1010" nm="State Senator, 2nd Senatorial District" aid="21" oid="10" pos="1" wr="1" el="0" acc="0" dis="0" s="10" />
+    <contest id="1011" nm="State Senator, 3rd Senatorial District" aid="43" oid="11" pos="1" wr="1" el="0" acc="0" dis="0" s="11" />
+    <contest id="1012" nm="State Senator, 4th Senatorial District" aid="41" oid="12" pos="1" wr="1" el="0" acc="0" dis="0" s="12" />
+    <contest id="1013" nm="State Senator, 5th Senatorial District" aid="13" oid="13" pos="1" wr="1" el="0" acc="0" dis="0" s="13" />
+    <contest id="1014" nm="State Senator, 8th Senatorial District" aid="58" oid="14" pos="1" wr="1" el="0" acc="0" dis="0" s="14" />
+    <contest id="1015" nm="Member of Assembly, 1st Assembly District" aid="8" oid="15" pos="1" wr="1" el="0" acc="0" dis="0" s="15" />
+    <contest id="1016" nm="Member of Assembly, 2nd Assembly District" aid="37" oid="16" pos="1" wr="1" el="0" acc="0" dis="0" s="16" />
+    <contest id="1017" nm="Member of Assembly, 3rd Assembly District" aid="24" oid="17" pos="1" wr="1" el="0" acc="0" dis="0" s="17" />
+    <contest id="1018" nm="Member of Assembly, 4th Assembly District" aid="2" oid="18" pos="1" wr="1" el="0" acc="0" dis="0" s="18" />
+    <contest id="1019" nm="Member of Assembly, 5th Assembly District" aid="30" oid="19" pos="1" wr="1" el="0" acc="0" dis="0" s="19" />
+    <contest id="1020" nm="Member of Assembly, 6th Assembly District" aid="17" oid="20" pos="1" wr="1" el="0" acc="0" dis="0" s="20" />
+    <contest id="1021" nm="Member of Assembly, 7th Assembly District" aid="48" oid="21" pos="1" wr="1" el="0" acc="0" dis="0" s="21" />
+    <contest id="1022" nm="Member of Assembly, 8th Assembly District" aid="10" oid="22" pos="1" wr="1" el="0" acc="0" dis="0" s="22" />
+    <contest id="1023" nm="Member of Assembly, 9th Assembly District" aid="55" oid="23" pos="1" wr="1" el="0" acc="0" dis="0" s="23" />
+    <contest id="1024" nm="Member of Assembly, 10th Assembly District" aid="49" oid="24" pos="1" wr="1" el="0" acc="0" dis="0" s="24" />
+    <contest id="1025" nm="Member of Assembly, 11th Assembly District" aid="12" oid="25" pos="1" wr="1" el="0" acc="0" dis="0" s="25" />
+    <contest id="1026" nm="Member of Assembly, 12th Assembly District" aid="26" oid="26" pos="1" wr="1" el="0" acc="0" dis="0" s="26" />
+    <contest id="1027" nm="District Court Judge, 2nd District, Town of Babylon" aid="46" oid="27" pos="2" wr="2" el="0" acc="0" dis="0" s="27" />
+    <contest id="1028" nm="Supervisor, Town of Babylon" aid="46" oid="28" pos="1" wr="1" el="0" acc="0" dis="0" s="28" />
+    <contest id="1029" nm="Supervisor, Town of Brookhaven" aid="14" oid="29" pos="1" wr="1" el="0" acc="0" dis="0" s="29" />
+    <contest id="1030" nm="District Court Judge, 3rd District, Town of Huntington" aid="16" oid="30" pos="1" wr="1" el="0" acc="0" dis="0" s="30" />
+    <contest id="1031" nm="Receiver of Taxes, Town of Riverhead" aid="47" oid="31" pos="1" wr="1" el="0" acc="0" dis="0" s="31" />
+    <contest id="1032" nm="Town Justice, Town of Riverhead" aid="47" oid="32" pos="1" wr="1" el="0" acc="0" dis="0" s="32" />
+    <contest id="1033" nm="Town Justice, Town of Shelter Island" aid="7" oid="33" pos="1" wr="1" el="0" acc="0" dis="0" s="33" />
+    <contest id="1034" nm="District Court Judge, 4th District, Town of Smithtown" aid="40" oid="34" pos="2" wr="2" el="0" acc="0" dis="0" s="34" />
+    <contest id="1035" nm="Town Justice, Town of Southampton" aid="51" oid="35" pos="1" wr="1" el="0" acc="0" dis="0" s="35" />
+    <contest id="1036" nm="Trustee, Town of Southold" aid="23" oid="36" pos="1" wr="1" el="0" acc="0" dis="0" s="36" />
+  </contests>
+  <parties>
+    <party id="4" nm="Democratic" ab="DEM" des="" s="1" />
+    <party id="9" nm="Republican" ab="REP" des="" s="2" />
+    <party id="2" nm="Conservative" ab="CON" des="" s="3" />
+    <party id="15" nm="Working Families" ab="WOR" des="" s="4" />
+    <party id="6" nm="Independence" ab="IND" des="" s="5" />
+    <party id="5" nm="Green" ab="GRE" des="" s="6" />
+    <party id="7" nm="Libertarian" ab="LBT" des="" s="7" />
+    <party id="1" nm="Common Sense" ab="CSP" des="" s="8" />
+    <party id="3" nm="Constitution" ab="CST" des="" s="9" />
+    <party id="8" nm="Main Street" ab="MST" des="" s="10" />
+    <party id="10" nm="RHD TXPYRS 1st" ab="RTF
