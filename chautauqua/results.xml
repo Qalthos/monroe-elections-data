@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="11/6/2012 9:23:52 PM" nm="2012 CHAUTAUQUA COUNTY GENERAL ELECTION" fin="0" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="0" stpol="0">
+<results ts="11/6/2012 9:28:41 PM" nm="2012 CHAUTAUQUA COUNTY GENERAL ELECTION" fin="0" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="5" stpol="0">
   <choices>
     <choice id="1" tot="1" vot="716" e="-1" />
     <choice id="1" tot="0" pid="4" vot="36" />
@@ -137,14 +137,14 @@
     <contest id="1020" bal="0" bl="0" uv="0" ov="0" wr="0" />
   </contests>
   <areas>
-    <area id="4" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="0" stpol="0" />
-    <area id="14" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="0" stpol="0" />
-    <area id="20" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="0" stpol="0" />
+    <area id="4" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="5" stpol="0" />
+    <area id="14" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="5" stpol="0" />
+    <area id="20" bal="0" vot="0" tab="0" cltab="0" pol="124" clpol="5" stpol="0" />
     <area id="18" bal="0" vot="0" tab="0" cltab="0" pol="1" clpol="0" stpol="0" />
     <area id="9" bal="0" vot="0" tab="0" cltab="0" pol="8" clpol="0" stpol="0" />
     <area id="28" bal="0" vot="0" tab="0" cltab="0" pol="3" clpol="0" stpol="0" />
     <area id="11" bal="0" vot="0" tab="0" cltab="0" pol="2" clpol="0" stpol="0" />
-    <area id="6" bal="0" vot="0" tab="0" cltab="0" pol="5" clpol="0" stpol="0" />
+    <area id="6" bal="0" vot="0" tab="0" cltab="0" pol="5" clpol="5" stpol="0" />
     <area id="5" bal="0" vot="0" tab="0" cltab="0" pol="1" clpol="0" stpol="0" />
     <area id="22" bal="0" vot="0" tab="0" cltab="0" pol="2" clpol="0" stpol="0" />
     <area id="29" bal="0" vot="0" tab="0" cltab="0" pol="13" clpol="0" stpol="0" />
