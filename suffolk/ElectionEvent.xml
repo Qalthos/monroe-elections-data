@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<election id="1" nm="Suffolk County General Election 2012" dt="20121106" tp="" jd="SUFFOLK" des="2012 General Elections" ts="11/2/2012 1:43:22 PM" el="892728">
+  <areatypes>
+    <areatype id="1" nm="County" top="1" ab="" des="" pid="0" s="1" />
+    <areatype id="2" nm="Congressional" top="0" ab="CD" des="" pid="0" s="2" />
+    <areatype id="3" nm="Senatorial" top="0" ab="SD" des="" pid="0" s="3" />
+    <areatype id="4" nm="Assembly" top="0" ab="AD" des="" pid="0" s="4" />
+    <areatype id="5" nm="Legislative" top="0" ab="LD" des="" pid="0" s="5" />
+    <areatype id="6" nm="Town" top="0" ab="Tow" des="" pid="0" s="6" />
+    <areatype id="7" nm="City" top="0" ab="Cit" des="" pid="0" s="7" />
+    <areatype id="8" nm="Ward" top="0" ab="CTS" des="" pid="0" s="8" />
+    <areatype id="9" nm="Village" top="0" ab="CTS" des="" pid="0" s="9" />
+    <areatype id="10" nm="City Council" top="0" ab="CTS" des="" pid="0" s="10" />
+    <areatype id="11" nm="ED" top="0" ab="ED" des="" pid="0" s="11" />
+    <areatype id="12" nm="CTSub4" top="0" ab="CTS" des="" pid="0" s="12" />
+    <areatype id="13" nm="CTSub5" top="0" ab="CTS" des="" pid="0" s="13" />
+  </areatypes>
+  <areas>
+    <area id="44" nm="SUFFOLK" ab="" des="" atid="1" pid="" t="1" el="0" s="100001" />
+    <area id="22" nm="1st Congressional District" ab="" des="" atid="2" pid="44" t="0" el="0" s="200002" />
+    <area id="59" nm="2nd Congressional District" ab="" des="" atid="2" pid="44" t="0" el="0" s="200003" />
+    <area id="11" nm="3rd Congressional District" ab="" des="" atid="2" pid="44" t="0" el="0" s="200004" />
+    <area id="31" nm="1st Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300005" />
+    <area id="21" nm="2nd Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300006" />
+    <area id="43" nm="3rd Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300007" />
+    <area id="41" nm="4th Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300008" />
+    <area id="13" nm="5th Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300009" />
+    <area id="58" nm="8th Senatorial District" ab="" des="" atid="3" pid="44" t="0" el="0" s="300010" />
+    <area id="8" nm="1st Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400011" />
+    <area id="37" nm="2nd Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400012" />
+    <area id="24" nm="3rd Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400013" />
+    <area id="2" nm="4th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400014" />
+    <area id="30" nm="5th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400015" />
+    <area id="17" nm="6th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400016" />
+    <area id="48" nm="7th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400017" />
+    <area id="10" nm="8th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400018" />
+    <area id="55" nm="9th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400019" />
+    <area id="49" nm="10th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400020" />
+    <area id="12" nm="11th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400021" />
+    <area id="26" nm="12th Assembly District" ab="" des="" atid="4" pid="44" t="0" el="0" s="400022" />
+    <area id="46" nm="Babylon" ab="" des="" atid="6" pid="44" t="0" el="0" s="600023" />
+    <area id="14" nm="Brookhaven" ab="" des="" atid="6" pid="44" t="0" el="0" s="600024" />
+    <area id="9" nm="East Hampton" ab="" des="" atid="6" pid="44" t="0" el="0" s="600025" />
+    <area id="16" nm="Huntington" ab="" des="" atid="6" pid="44" t="0" el="0" s="600026" />
+    <area id="57" nm="Islip" ab="" des="" atid="6" pid="44" t="0" el="0" s="600027" />
+    <area id="47" nm="Riverhead" ab="" des="" atid="6" pid="44" t="0" el="0" s="600028" />
+    <area id="7" nm="Shelter Island" ab="" des="" atid="6" pid="44" t="0" el="0" s="600029" />
+    <area id="40" nm="Smithtown" ab="" des="" atid="6" pid="44" t="0" el="0" s="600030" />
+    <area id="51" nm="Southampton" ab="" des="" atid="6" pid="44" t="0" el="0" s="600031" />
+    <area id="23" nm="Southold" ab="" des="" atid="6" pid="44" t="0" el="0" s="600032" />
+    <area id="39" nm="AMITYVILLE" ab="" des="" atid="9" pid="44" t="0" el="0" s="900033" />
+    <area id="60" nm="BABYLON" ab="" des="" atid="9" pid="44" t="0" el="0" s="900034" />
+    <area id="38" nm="LINDENHURST" ab="" des="" atid="9" pid="44" t="0" el="0" s="900035" />
+    <area id="18" nm="1001 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000036" />
+    <area id="4" nm="1002 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000037" />
+    <area id="56" nm="1003 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000038" />
+    <area id="33" nm="1004 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000039" />
+    <area id="1" nm="1005 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000040" />
+    <area id="29" nm="1006 Council District" ab="" des="" atid="10" pid="44" t="0" el="0" s="1000041" />
+    <area id="52" nm="Westend Towns" ab="" des="" atid="12" pid="44" t="0" el="0" s="1200042" />
+    <area id="28" nm="1" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300043" />
+    <area id="53" nm="2" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300044" />
+    <area id="27" nm="3" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300045" />
+    <area id="15" nm="4" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300046" />
+    <area id="54" nm="5" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300047" />
+    <area id="5" nm="6" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300048" />
+    <area id="6" nm="7" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300049" />
+    <area id="34" nm="8" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300050" />
+    <area id="3" nm="9" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300051" />
+    <area id="50" nm="10" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300052" />
+    <area id="32" nm="11" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300053" />
+    <area id="35" nm="12" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300054" />
+    <area id="20" nm="13" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300055" />
+    <area id="45" nm="14" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300056" />
+    <area id="19" nm="15" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300057" />
+    <area id="25" nm="16" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300058" />
+    <area id="36" nm="17" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300059" />
+    <area id="42" nm="18" ab="" des="" atid="13" pid="44" t="0" el="0" s="1300060" />
+  </areas>
+  <offices>
+    <office id="1" nm="President and Vice President" atid="0" tp="" sys="" maj="0" s="1" />
+    <office id="2" nm="United States Senator" atid="0" tp="" sys="" maj="0" s="2" />
+    <office id="3" nm="Justice of the Supreme Court, 10th Judicial District" atid="0" tp="" sys="" maj="0" s="3" />
+    <office id="4" nm="County Court Judge" atid="0" tp="" sys="" maj="0" s="4" />
+    <office id="5" nm="Family Court Judge" atid="0" tp="" sys="" maj="0" s="5" />
+    <office id="6" nm="Representative in Congress, 1st Congressional District" atid="0" tp="" sys="" maj="0" s="6" />
+    <office id="7" nm="Representative in Congress, 2nd Congressional District" atid="0" tp="" sys="" maj="0" s="7" />
+    <office id="8" nm="Representative in Congress, 3rd Congressional District" atid="0" tp="" sys="" maj="0" s="8" />
+    <office id="9" nm="State Senator, 1st Senatorial District" atid="0" tp="" sys="" maj="0" s="9" />
+    <office id="10" nm="State Senator, 2nd Senatorial District" atid="0" tp="" sys="" maj="0" s="10" />
+    <office id="11" nm="State Senator, 3rd Senatorial District" atid="0" tp="" sys="" maj="0" s="11" />
+    <office id="
