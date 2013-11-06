@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2013-11-05 23:32:52" nm="2013 Orange GEN" fin="0" bal="68950" vot="68950" tab="147" cltab="144" pol="318" clpol="307" stpol="316">
+<results ts="2013-11-05 23:53:09" nm="2013 Orange GEN" fin="0" bal="68950" vot="68950" tab="147" cltab="143" pol="318" clpol="305" stpol="316">
   <choices>
     <choice id="1" tot="1" vot="23689" e="-1" />
     <choice id="1" tot="0" pid="1" vot="23689" />
@@ -1201,9 +1201,9 @@
     <contest id="1153" bal="1037" bl="1" uv="0" ov="0" wrr="9" />
   </contests>
   <areas>
-    <area id="1" bal="68950" vot="68950" tab="147" cltab="144" pol="318" clpol="307" stpol="316">
+    <area id="1" bal="68950" vot="68950" tab="147" cltab="143" pol="318" clpol="305" stpol="316">
       <tab>
-        <cg cgId="1" tot="147" clos="144" />
+        <cg cgId="1" tot="147" clos="143" />
       </tab>
     </area>
     <area id="2" bal="3683" vot="3683" tab="7" cltab="7" pol="16" clpol="16" stpol="16">
@@ -1286,9 +1286,9 @@
         <cg cgId="1" tot="3" clos="3" />
       </tab>
     </area>
-    <area id="18" bal="4262" vot="4262" tab="13" cltab="13" pol="26" clpol="26" stpol="26">
+    <area id="18" bal="4262" vot="4262" tab="13" cltab="12" pol="26" clpol="24" stpol="26">
       <tab>
-        <cg cgId="1" tot="13" clos="13" />
+        <cg cgId="1" tot="13" clos="12" />
       </tab>
     </area>
     <area id="19" bal="6142" vot="6142" tab="13" cltab="13" pol="31" clpol="31" stpol="31">
@@ -1366,9 +1366,9 @@
         <cg cgId="1" tot="10" clos="9" />
       </tab>
     </area>
-    <area id="34" bal="3578" vot="3578" tab="8" cltab="8" pol="16" clpol="16" stpol="16">
+    <area id="34" bal="3578" vot="3578" tab="8" cltab="7" pol="16" clpol="14" stpol="16">
       <tab>
-        <cg cgId="1" tot="8" clos="8" />
+        <cg cgId="1" tot="8" clos="7" />
       </tab>
     </area>
     <area id="35" bal="2042" vot="2042" tab="10" cltab="10" pol="16" clpol="16" stpol="16">
@@ -1426,9 +1426,9 @@
         <cg cgId="1" tot="8" clos="8" />
       </tab>
     </area>
-    <area id="46" bal="68950" vot="68950" tab="147" cltab="144" pol="318" clpol="307" stpol="316">
+    <area id="46" bal="68950" vot="68950" tab="147" cltab="143" pol="318" clpol="305" stpol="316">
       <tab>
-        <cg cgId="1" tot="147" clos="144" />
+        <cg cgId="1" tot="147" clos="143" />
       </tab>
     </area>
     <area id="47" bal="42425" vot="42425" tab="83" cltab="80" pol="181" clpol="170" stpol="179">
@@ -1436,14 +1436,14 @@
         <cg cgId="1" tot="83" clos="80" />
       </tab>
     </area>
-    <area id="48" bal="26525" vot="26525" tab="64" cltab="64" pol="137" clpol="137" stpol="137">
+    <area id="48" bal="26525" vot="26525" tab="64" cltab="63" pol="137" clpol="135" stpol="137">
       <tab>
-        <cg cgId="1" tot="64" clos="64" />
+        <cg cgId="1" tot="64" clos="63" />
       </tab>
     </area>
-    <area id="49" bal="8352" vot="8352" tab="27" cltab="27" pol="55" clpol="55" stpol="55">
+    <area id="49" bal="8352" vot="8352" tab="27" cltab="26" pol="55" clpol="53" stpol="55">
       <tab>
-        <cg cgId="1" tot="27" clos="27" />
+        <cg cgId="1" tot="27" clos="26" />
       </tab>
     </area>
     <area id="50" bal="6175" vot="6175" tab="12" cltab="12" pol="26" clpol="26" stpol="26">
@@ -1561,9 +1561,9 @@
         <cg cgId="1" tot="5" clos="5" />
       </tab>
     </area>
-    <area id="73" bal="1002" vot="1002" tab="3" cltab="3" pol="5" clpol="5" stpol="5">
+    <area id="73" bal="1002" vot="1002" tab="3" cltab="2" pol="5" clpol="3" stpol="5">
       <tab>
-        <cg cgId="1" tot="3" clos="3" />
+        <cg cgId="1" tot="3" clos="2" />
       </tab>
     </area>
   </areas>
