@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2014-06-11 15:41:01" nm="2014 Brockport Village" fin="0" bal="0" vot="0" tab="4" cltab="0" pol="1" clpol="0" stpol="0">
+<results ts="2014-06-17 21:11:03" nm="2014 Brockport Village" fin="1" bal="234" vot="234" tab="4" cltab="4" pol="1" clpol="1" stpol="1">
   <choices>
-    <choice id="1" tot="1" vot="0" e="0" />
-    <choice id="1" tot="0" pid="1" vot="0" />
-    <choice id="2" tot="1" vot="0" e="0" />
-    <choice id="3" tot="1" vot="0" e="0" />
-    <choice id="3" tot="0" pid="1" vot="0" />
-    <choice id="4" tot="1" vot="0" e="0" />
-    <choice id="4" tot="0" pid="1" vot="0" />
-    <choice id="5" tot="1" vot="0" e="0" />
+    <choice id="1" tot="1" vot="183" e="1" />
+    <choice id="1" tot="0" pid="1" vot="183" />
+    <choice id="2" tot="1" vot="18" e="-1" />
+    <choice id="3" tot="1" vot="180" e="1" />
+    <choice id="3" tot="0" pid="1" vot="180" />
+    <choice id="4" tot="1" vot="172" e="1" />
+    <choice id="4" tot="0" pid="1" vot="172" />
+    <choice id="5" tot="1" vot="39" e="-1" />
   </choices>
   <contests>
-    <contest id="1001" bal="0" bl="0" uv="0" ov="0" wrr="0" />
-    <contest id="1002" bal="0" bl="0" uv="0" ov="0" wrr="0" />
+    <contest id="1001" bal="234" bl="0" uv="0" ov="0" wrr="57" />
+    <contest id="1002" bal="234" bl="0" uv="0" ov="0" wrr="57" />
   </contests>
   <areas>
-    <area id="1" bal="0" vot="0" tab="4" cltab="0" pol="1" clpol="0" stpol="0">
+    <area id="1" bal="234" vot="234" tab="4" cltab="4" pol="1" clpol="1" stpol="1">
       <tab>
-        <cg cgId="1" tot="4" clos="0" />
+        <cg cgId="1" tot="4" clos="4" />
       </tab>
     </area>
   </areas>
