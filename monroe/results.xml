@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2014-09-09 22:15:16" nm="2014 Monroe Primary" fin="0" bal="17288" vot="17288" tab="660" cltab="606" pol="379" clpol="351" stpol="349">
+<results ts="2014-09-09 22:18:49" nm="2014 Monroe Primary" fin="0" bal="17701" vot="17701" tab="660" cltab="614" pol="379" clpol="355" stpol="353">
   <choices>
-    <choice id="1" tot="1" vot="5419" e="-1" />
-    <choice id="1" tot="0" pid="1" vot="5419" />
-    <choice id="2" tot="1" vot="9108" e="1" />
-    <choice id="2" tot="0" pid="1" vot="9108" />
-    <choice id="3" tot="1" vot="482" e="-1" />
-    <choice id="3" tot="0" pid="1" vot="482" />
-    <choice id="4" tot="1" vot="19" e="-1" />
-    <choice id="5" tot="1" vot="10084" e="1" />
-    <choice id="5" tot="0" pid="1" vot="10084" />
-    <choice id="6" tot="1" vot="4622" e="-1" />
-    <choice id="6" tot="0" pid="1" vot="4622" />
+    <choice id="1" tot="1" vot="5639" e="-1" />
+    <choice id="1" tot="0" pid="1" vot="5639" />
+    <choice id="2" tot="1" vot="9293" e="1" />
+    <choice id="2" tot="0" pid="1" vot="9293" />
+    <choice id="3" tot="1" vot="487" e="-1" />
+    <choice id="3" tot="0" pid="1" vot="487" />
+    <choice id="4" tot="1" vot="20" e="-1" />
+    <choice id="5" tot="1" vot="10310" e="1" />
+    <choice id="5" tot="0" pid="1" vot="10310" />
+    <choice id="6" tot="1" vot="4801" e="-1" />
+    <choice id="6" tot="0" pid="1" vot="4801" />
     <choice id="7" tot="1" vot="21" e="-1" />
     <choice id="8" tot="1" vot="24" e="-1" />
     <choice id="8" tot="0" pid="2" vot="24" />
@@ -953,8 +953,8 @@
     <choice id="508" tot="1" vot="0" e="-1" />
   </choices>
   <contests>
-    <contest id="1001" bal="15286" bl="5" uv="0" ov="0" wrr="100" />
-    <contest id="1002" bal="15286" bl="5" uv="0" ov="0" wrr="100" />
+    <contest id="1001" bal="15699" bl="6" uv="0" ov="0" wrr="101" />
+    <contest id="1002" bal="15699" bl="6" uv="0" ov="0" wrr="101" />
     <contest id="1003" bal="125" bl="0" uv="0" ov="0" wrr="1" />
     <contest id="1004" bal="1" bl="0" uv="0" ov="0" wrr="1" />
     <contest id="1005" bal="1876" bl="1" uv="0" ov="0" wrr="7" />
@@ -1021,9 +1021,9 @@
     <contest id="1066" bal="2" bl="0" uv="0" ov="0" wrr="0" />
   </contests>
   <areas>
-    <area id="1" bal="17288" vot="17288" tab="660" cltab="606" pol="379" clpol="351" stpol="349">
+    <area id="1" bal="17701" vot="17701" tab="660" cltab="614" pol="379" clpol="355" stpol="353">
       <tab>
-        <cg cgId="1" tot="660" clos="606" />
+        <cg cgId="1" tot="660" clos="614" />
       </tab>
     </area>
     <area id="2" bal="304" vot="304" tab="28" cltab="6" pol="14" clpol="3" stpol="3">
