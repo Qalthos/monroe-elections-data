@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2014-09-09 23:14:32" nm="2014 Primary" fin="0" bal="17871" vot="17871" tab="1386" cltab="1382" pol="1052" clpol="1049" stpol="1023">
+<results ts="2014-09-09 23:28:40" nm="2014 Primary" fin="0" bal="17885" vot="17885" tab="1386" cltab="1384" pol="1052" clpol="1050" stpol="1024">
   <choices>
-    <choice id="1" tot="1" vot="6865" e="-1" />
-    <choice id="1" tot="0" pid="1" vot="6865" />
-    <choice id="2" tot="1" vot="8778" e="1" />
-    <choice id="2" tot="0" pid="1" vot="8778" />
-    <choice id="3" tot="1" vot="342" e="-1" />
-    <choice id="3" tot="0" pid="1" vot="342" />
+    <choice id="1" tot="1" vot="6867" e="-1" />
+    <choice id="1" tot="0" pid="1" vot="6867" />
+    <choice id="2" tot="1" vot="8788" e="1" />
+    <choice id="2" tot="0" pid="1" vot="8788" />
+    <choice id="3" tot="1" vot="344" e="-1" />
+    <choice id="3" tot="0" pid="1" vot="344" />
     <choice id="4" tot="1" vot="10" e="-1" />
-    <choice id="5" tot="1" vot="8610" e="1" />
-    <choice id="5" tot="0" pid="1" vot="8610" />
-    <choice id="6" tot="1" vot="6513" e="-1" />
-    <choice id="6" tot="0" pid="1" vot="6513" />
+    <choice id="5" tot="1" vot="8618" e="1" />
+    <choice id="5" tot="0" pid="1" vot="8618" />
+    <choice id="6" tot="1" vot="6519" e="-1" />
+    <choice id="6" tot="0" pid="1" vot="6519" />
     <choice id="7" tot="1" vot="6" e="-1" />
     <choice id="8" tot="1" vot="18" e="1" />
     <choice id="9" tot="1" vot="114" e="-1" />
@@ -301,8 +301,8 @@
     <choice id="173" tot="1" vot="4" e="1" />
   </choices>
   <contests>
-    <contest id="1001" bal="16118" bl="13" uv="0" ov="0" wrr="22" />
-    <contest id="1002" bal="16118" bl="13" uv="0" ov="0" wrr="22" />
+    <contest id="1001" bal="16132" bl="13" uv="0" ov="0" wrr="22" />
+    <contest id="1002" bal="16132" bl="13" uv="0" ov="0" wrr="22" />
     <contest id="1003" bal="19" bl="1" uv="0" ov="0" wrr="18" />
     <contest id="1004" bal="259" bl="2" uv="0" ov="0" wrr="2" />
     <contest id="1005" bal="417" bl="2" uv="0" ov="0" wrr="2" />
@@ -351,9 +351,9 @@
     <contest id="1048" bal="2" bl="0" uv="0" ov="0" wrr="4" />
   </contests>
   <areas>
-    <area id="1" bal="17871" vot="17871" tab="1386" cltab="1382" pol="1052" clpol="1049" stpol="1023">
+    <area id="1" bal="17885" vot="17885" tab="1386" cltab="1384" pol="1052" clpol="1050" stpol="1024">
       <tab>
-        <cg cgId="1" tot="1386" clos="1382" />
+        <cg cgId="1" tot="1386" clos="1384" />
       </tab>
     </area>
     <area id="2" bal="1875" vot="1875" tab="199" cltab="199" pol="154" clpol="154" stpol="152">
@@ -361,9 +361,9 @@
         <cg cgId="1" tot="199" clos="199" />
       </tab>
     </area>
-    <area id="3" bal="4983" vot="4983" tab="398" cltab="395" pol="296" clpol="294" stpol="287">
+    <area id="3" bal="4997" vot="4997" tab="398" cltab="397" pol="296" clpol="295" stpol="288">
       <tab>
-        <cg cgId="1" tot="398" clos="395" />
+        <cg cgId="1" tot="398" clos="397" />
       </tab>
     </area>
     <area id="4" bal="533" vot="533" tab="27" cltab="27" pol="19" clpol="19" stpol="19">
@@ -406,9 +406,9 @@
         <cg cgId="1" tot="31" clos="31" />
       </tab>
     </area>
-    <area id="12" bal="8534" vot="8534" tab="653" cltab="650" pol="473" clpol="471" stpol="462">
+    <area id="12" bal="8548" vot="8548" tab="653" cltab="652" pol="473" clpol="472" stpol="463">
       <tab>
-        <cg cgId="1" tot="653" clos="650" />
+        <cg cgId="1" tot="653" clos="652" />
       </tab>
     </area>
     <area id="13" bal="4681" vot="4681" tab="478" cltab="478" pol="369" clpol="369" stpol="357">
@@ -431,9 +431,9 @@
         <cg cgId="1" tot="297" clos="296" />
       </tab>
     </area>
-    <area id="17" bal="2784" vot="2784" tab="274" cltab="272" pol="206" clpol="205" stpol="190">
+    <area id="17" bal="2798" vot="2798" tab="274" cltab="274" pol="206" clpol="206" stpol="191">
       <tab>
-        <cg cgId="1" tot="274" clos="272" />
+        <cg cgId="1" tot="274" clos="274" />
       </tab>
     </area>
     <area id="18" bal="2600" vot="2600" tab="303" cltab="303" pol="225" clpol="225" stpol="221">
@@ -496,9 +496,9 @@
         <cg cgId="1" tot="84" clos="84" />
       </tab>
     </area>
-    <area id="30" bal="1377" vot="1377" tab="139" cltab="137" pol="102" clpol="101" stpol="98">
+    <area id="30" bal="1391" vot="1391" tab="139" cltab="139" pol="102" clpol="102" stpol="99">
       <tab>
-        <cg cgId="1" tot="139" clos="137" />
+        <cg cgId="1" tot="139" clos="139" />
       </tab>
     </area>
     <area id="31" bal="1396" vot="1396" tab="133" cltab="133" pol="103" clpol="103" stpol="100">
@@ -711,9 +711,9 @@
         <cg cgId="1" tot="69" clos="68" />
       </tab>
     </area>
-    <area id="73" bal="738" vot="738" tab="79" cltab="77" pol="56" clpol="55" stpol="54">
+    <area id="73" bal="752" vot="752" tab="79" cltab="79" pol="56" clpol="56" stpol="55">
       <tab>
-        <cg cgId="1" tot="79" clos="77" />
+        <cg cgId="1" tot="79" clos="79" />
       </tab>
     </area>
     <area id="74" bal="550" vot="550" tab="61" cltab="61" pol="45" clpol="45" stpol="41">
@@ -736,9 +736,9 @@
         <cg cgId="1" tot="26" clos="26" />
       </tab>
     </area>
-    <area id="78" bal="15339" vot="15339" tab="1230" cltab="1226" pol="946" clpol="943" stpol="917">
+    <area id="78" bal="15353" vot="15353" tab="1230" cltab="1228" pol="946" clpol="944" stpol="918">
       <tab>
-        <cg cgId="1" tot="1230" clos="1226" />
+        <cg cgId="1" tot="1230" clos="1228" />
       </tab>
     </area>
     <area id="79" bal="1269" vot="1269" tab="88" cltab="88" pol="58" clpol="58" stpol="56">
@@ -821,9 +821,9 @@
         <cg cgId="1" tot="72" clos="72" />
       </tab>
     </area>
-    <area id="95" bal="860" vot="860" tab="74" cltab="72" pol="54" clpol="53" stpol="53">
+    <area id="95" bal="874" vot="874" tab="74" cltab="74" pol="54" clpol="54" stpol="54">
       <tab>
-        <cg cgId="1" tot="74" clos="72" />
+        <cg cgId="1" tot="74" clos="74" />
       </tab>
     </area>
     <area id="96" bal="777" vot="777" tab="52" cltab="52" pol="36" clpol="36" stpol="36">
