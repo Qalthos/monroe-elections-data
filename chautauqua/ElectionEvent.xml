@@ -297,3 +297,47 @@
     <aff chid="42" pid="4" s="4" />
     <aff chid="42" pid="5" s="5" />
     <aff chid="43" pid="2" s="2" />
+    <aff chid="43" pid="3" s="3" />
+    <aff chid="45" pid="1" s="1" />
+    <aff chid="47" pid="2" s="2" />
+    <aff chid="49" pid="2" s="2" />
+    <aff chid="51" pid="2" s="2" />
+    <aff chid="52" pid="11" s="12" />
+    <aff chid="54" pid="2" s="2" />
+    <aff chid="56" pid="2" s="2" />
+    <aff chid="58" pid="2" s="2" />
+    <aff chid="58" pid="3" s="3" />
+    <aff chid="58" pid="4" s="4" />
+    <aff chid="58" pid="5" s="5" />
+    <aff chid="58" pid="6" s="6" />
+    <aff chid="60" pid="2" s="2" />
+    <aff chid="62" pid="2" s="2" />
+    <aff chid="64" pid="2" s="2" />
+    <aff chid="64" pid="3" s="3" />
+    <aff chid="66" pid="1" s="1" />
+    <aff chid="66" pid="2" s="2" />
+    <aff chid="67" pid="1" s="1" />
+    <aff chid="67" pid="2" s="2" />
+    <aff chid="69" pid="1" s="1" />
+    <aff chid="69" pid="2" s="2" />
+    <aff chid="71" pid="1" s="1" />
+    <aff chid="72" pid="1" s="1" />
+    <aff chid="73" pid="2" s="2" />
+    <aff chid="74" pid="2" s="2" />
+    <aff chid="76" pid="1" s="1" />
+    <aff chid="76" pid="2" s="2" />
+    <aff chid="77" pid="2" s="2" />
+  </affiliations>
+  <electorgroups>
+    <electorgroup id="1" nm="Non Federal" ab="NON" t="1" s="1" />
+  </electorgroups>
+  <combinations>
+    <combo id="1" nm="Election Day" />
+  </combinations>
+  <combohasgroups>
+    <chg gid="1" cid="1" s="23" />
+  </combohasgroups>
+  <countinggroups>
+    <countinggroup id="1" name="Election Day" />
+  </countinggroups>
+</election>
