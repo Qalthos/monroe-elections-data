@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2014-10-15 18:01:26" nm="General Election 2014 Chautauqua County" fin="0" bal="0" vot="0" tab="67" cltab="0" pol="101" clpol="0" stpol="0">
+<results ts="2014-11-04 19:07:04" nm="General Election 2014 Chautauqua County" fin="0" bal="0" vot="0" tab="68" cltab="0" pol="101" clpol="0" stpol="0">
   <choices>
     <choice id="1" tot="1" vot="0" e="0" />
     <choice id="1" tot="0" pid="1" vot="0" />
@@ -230,14 +230,14 @@
     <contest id="1030" bal="0" bl="0" uv="0" ov="0" wrr="0" />
   </contests>
   <areas>
-    <area id="1" bal="0" vot="0" tab="67" cltab="0" pol="101" clpol="0" stpol="0">
+    <area id="1" bal="0" vot="0" tab="68" cltab="0" pol="101" clpol="0" stpol="0">
       <tab>
-        <cg cgId="1" tot="67" clos="0" />
+        <cg cgId="1" tot="68" clos="0" />
       </tab>
     </area>
-    <area id="2" bal="0" vot="0" tab="67" cltab="0" pol="101" clpol="0" stpol="0">
+    <area id="2" bal="0" vot="0" tab="68" cltab="0" pol="101" clpol="0" stpol="0">
       <tab>
-        <cg cgId="1" tot="67" clos="0" />
+        <cg cgId="1" tot="68" clos="0" />
       </tab>
     </area>
     <area id="3" bal="0" vot="0" tab="4" cltab="0" pol="4" clpol="0" stpol="0">
@@ -310,9 +310,9 @@
         <cg cgId="1" tot="2" clos="0" />
       </tab>
     </area>
-    <area id="17" bal="0" vot="0" tab="2" cltab="0" pol="3" clpol="0" stpol="0">
+    <area id="17" bal="0" vot="0" tab="3" cltab="0" pol="3" clpol="0" stpol="0">
       <tab>
-        <cg cgId="1" tot="2" clos="0" />
+        <cg cgId="1" tot="3" clos="0" />
       </tab>
     </area>
     <area id="18" bal="0" vot="0" tab="7" cltab="0" pol="10" clpol="0" stpol="0">
