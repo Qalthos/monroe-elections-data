@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2015-09-10 22:07:01" nm="Chautauqua County Primary Election 2015" fin="0" bal="1587" vot="1587" tab="14" cltab="12" pol="11" clpol="10" stpol="11">
+<results ts="2015-09-11 09:40:19" nm="Chautauqua County Primary Election 2015" fin="1" bal="1587" vot="1587" tab="14" cltab="14" pol="11" clpol="11" stpol="11">
   <choices>
     <choice id="1" tot="1" vot="568" e="1" />
     <choice id="1" tot="0" pid="1" vot="568" />
@@ -51,9 +51,9 @@
     <contest id="1008" bal="22" bl="1" uv="0" ov="0" wrr="15" />
   </contests>
   <areas>
-    <area id="1" bal="1587" vot="1587" tab="14" cltab="12" pol="11" clpol="10" stpol="11">
+    <area id="1" bal="1587" vot="1587" tab="14" cltab="14" pol="11" clpol="11" stpol="11">
       <tab>
-        <cg cgId="1" tot="14" clos="12" />
+        <cg cgId="1" tot="14" clos="14" />
       </tab>
     </area>
     <area id="2" bal="985" vot="985" tab="6" cltab="6" pol="6" clpol="6" stpol="6">
@@ -61,9 +61,9 @@
         <cg cgId="1" tot="6" clos="6" />
       </tab>
     </area>
-    <area id="3" bal="414" vot="414" tab="6" cltab="4" pol="3" clpol="2" stpol="3">
+    <area id="3" bal="414" vot="414" tab="6" cltab="6" pol="3" clpol="3" stpol="3">
       <tab>
-        <cg cgId="1" tot="6" clos="4" />
+        <cg cgId="1" tot="6" clos="6" />
       </tab>
     </area>
     <area id="4" bal="30" vot="30" tab="1" cltab="1" pol="1" clpol="1" stpol="1">
