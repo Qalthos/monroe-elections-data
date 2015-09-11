@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2015-08-03 15:30:47" nm="Chautauqua County Primary Election 2015" fin="0" bal="0" vot="0" tab="12" cltab="0" pol="11" clpol="0" stpol="0">
+<results ts="2015-09-10 21:36:48" nm="Chautauqua County Primary Election 2015" fin="0" bal="30" vot="30" tab="14" cltab="1" pol="11" clpol="1" stpol="1">
   <choices>
     <choice id="1" tot="1" vot="0" e="0" />
     <choice id="1" tot="0" pid="1" vot="0" />
@@ -16,11 +16,11 @@
     <choice id="8" tot="1" vot="0" e="0" />
     <choice id="8" tot="0" pid="2" vot="0" />
     <choice id="9" tot="1" vot="0" e="0" />
-    <choice id="10" tot="1" vot="0" e="0" />
-    <choice id="10" tot="0" pid="5" vot="0" />
-    <choice id="11" tot="1" vot="0" e="0" />
-    <choice id="11" tot="0" pid="5" vot="0" />
-    <choice id="12" tot="1" vot="0" e="0" />
+    <choice id="10" tot="1" vot="14" e="-1" />
+    <choice id="10" tot="0" pid="5" vot="14" />
+    <choice id="11" tot="1" vot="16" e="1" />
+    <choice id="11" tot="0" pid="5" vot="16" />
+    <choice id="12" tot="1" vot="0" e="-1" />
     <choice id="13" tot="1" vot="0" e="0" />
     <choice id="13" tot="0" pid="3" vot="0" />
     <choice id="14" tot="1" vot="0" e="0" />
@@ -44,16 +44,16 @@
     <contest id="1001" bal="0" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1002" bal="0" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1003" bal="0" bl="0" uv="0" ov="0" wrr="0" />
-    <contest id="1004" bal="0" bl="0" uv="0" ov="0" wrr="0" />
+    <contest id="1004" bal="30" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1005" bal="0" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1006" bal="0" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1007" bal="0" bl="0" uv="0" ov="0" wrr="0" />
     <contest id="1008" bal="0" bl="0" uv="0" ov="0" wrr="0" />
   </contests>
   <areas>
-    <area id="1" bal="0" vot="0" tab="12" cltab="0" pol="11" clpol="0" stpol="0">
+    <area id="1" bal="30" vot="30" tab="14" cltab="1" pol="11" clpol="1" stpol="1">
       <tab>
-        <cg cgId="1" tot="12" clos="0" />
+        <cg cgId="1" tot="14" clos="1" />
       </tab>
     </area>
     <area id="2" bal="0" vot="0" tab="6" cltab="0" pol="6" clpol="0" stpol="0">
@@ -61,14 +61,14 @@
         <cg cgId="1" tot="6" clos="0" />
       </tab>
     </area>
-    <area id="3" bal="0" vot="0" tab="4" cltab="0" pol="3" clpol="0" stpol="0">
+    <area id="3" bal="0" vot="0" tab="6" cltab="0" pol="3" clpol="0" stpol="0">
       <tab>
-        <cg cgId="1" tot="4" clos="0" />
+        <cg cgId="1" tot="6" clos="0" />
       </tab>
     </area>
-    <area id="4" bal="0" vot="0" tab="1" cltab="0" pol="1" clpol="0" stpol="0">
+    <area id="4" bal="30" vot="30" tab="1" cltab="1" pol="1" clpol="1" stpol="1">
       <tab>
-        <cg cgId="1" tot="1" clos="0" />
+        <cg cgId="1" tot="1" clos="1" />
       </tab>
     </area>
     <area id="5" bal="0" vot="0" tab="1" cltab="0" pol="1" clpol="0" stpol="0">
