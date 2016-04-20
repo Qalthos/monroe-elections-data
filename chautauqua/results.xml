@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<results ts="2016-04-19 22:00:36" nm="April 19 2016 Presidential Primary" fin="0" bal="16403" vot="16403" tab="55" cltab="54" pol="51" clpol="50" stpol="50">
+<results ts="2016-04-19 22:07:23" nm="April 19 2016 Presidential Primary" fin="1" bal="16403" vot="16403" tab="55" cltab="55" pol="51" clpol="51" stpol="51">
   <choices>
     <choice id="1" tot="1" vot="4081" e="1" />
     <choice id="1" tot="0" pid="1" vot="4081" />
@@ -42,9 +42,9 @@
     <contest id="1005" bal="0" bl="0" uv="0" ov="0" wrr="0" />
   </contests>
   <areas>
-    <area id="1" bal="16403" vot="16403" tab="55" cltab="54" pol="51" clpol="50" stpol="50">
+    <area id="1" bal="16403" vot="16403" tab="55" cltab="55" pol="51" clpol="51" stpol="51">
       <tab>
-        <cg cgId="1" tot="55" clos="54" />
+        <cg cgId="1" tot="55" clos="55" />
       </tab>
     </area>
     <area id="2" bal="183" vot="183" tab="1" cltab="1" pol="1" clpol="1" stpol="1">
@@ -212,14 +212,14 @@
         <cg cgId="1" tot="2" clos="2" />
       </tab>
     </area>
-    <area id="35" bal="16403" vot="16403" tab="55" cltab="54" pol="51" clpol="50" stpol="50">
+    <area id="35" bal="16403" vot="16403" tab="55" cltab="55" pol="51" clpol="51" stpol="51">
       <tab>
-        <cg cgId="1" tot="55" clos="54" />
+        <cg cgId="1" tot="55" clos="55" />
       </tab>
     </area>
-    <area id="36" bal="16403" vot="16403" tab="55" cltab="54" pol="51" clpol="50" stpol="50">
+    <area id="36" bal="16403" vot="16403" tab="55" cltab="55" pol="51" clpol="51" stpol="51">
       <tab>
-        <cg cgId="1" tot="55" clos="54" />
+        <cg cgId="1" tot="55" clos="55" />
       </tab>
     </area>
     <area id="37" bal="166" vot="166" tab="1" cltab="1" pol="1" clpol="1" stpol="1">
@@ -307,9 +307,9 @@
         <cg cgId="1" tot="1" clos="1" />
       </tab>
     </area>
-    <area id="54" bal="0" vot="0" tab="1" cltab="0" pol="1" clpol="0" stpol="0">
+    <area id="54" bal="0" vot="0" tab="1" cltab="1" pol="1" clpol="1" stpol="1">
       <tab>
-        <cg cgId="1" tot="1" clos="0" />
+        <cg cgId="1" tot="1" clos="1" />
       </tab>
     </area>
     <area id="55" bal="4159" vot="4159" tab="13" cltab="13" pol="13" clpol="13" stpol="13">
