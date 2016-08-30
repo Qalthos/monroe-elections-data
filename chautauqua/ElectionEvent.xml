@@ -1,142 +1,127 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<election id="1" nm="April 19 2016 Presidential Primary" dt="20160419" tp="General Election" jd="CHAUTAUQUA COUNTY" des="2016 Presidential Primary " ts="2016-04-14 12:06:45" el="0">
+<election id="1" nm="2016 Chautauqua County Primary" dt="20160913" tp="Closed Primary" jd="Chautauqua County" des="Chautauqua County Primary 2016 ICC" ts="2016-08-18 13:14:45" el="0">
   <areatypes>
     <areatype id="1" nm="County" top="1" ab="" des="" pid="" s="1" />
-    <areatype id="2" nm="Town" top="0" ab="" des="" pid="1" s="2" />
-    <areatype id="3" nm="Democratic" top="0" ab="" des="" pid="1" s="3" />
-    <areatype id="4" nm="Republican" top="0" ab="" des="" pid="1" s="4" />
-    <areatype id="5" nm="City" top="0" ab="" des="" pid="1" s="6" />
-    <areatype id="6" nm="Ward" top="0" ab="" des="" pid="5" s="7" />
-    <areatype id="7" nm="Dem Spanish Ballots included in totals" top="0" ab="" des="" pid="1" s="20" />
-    <areatype id="8" nm="Rep Spanish Ballots included in totals" top="0" ab="" des="" pid="1" s="21" />
+    <areatype id="2" nm="Congressional District" top="0" ab="" des="" pid="1" s="3" />
+    <areatype id="3" nm="State Senatorial District" top="0" ab="" des="" pid="1" s="4" />
+    <areatype id="4" nm="Assembly District" top="0" ab="" des="" pid="1" s="5" />
+    <areatype id="5" nm="Legislative District" top="0" ab="" des="" pid="1" s="6" />
+    <areatype id="6" nm="City" top="0" ab="" des="" pid="1" s="7" />
+    <areatype id="7" nm="City Ward" top="0" ab="" des="" pid="6" s="8" />
+    <areatype id="8" nm="Town" top="0" ab="" des="" pid="1" s="9" />
+    <areatype id="9" nm="Village" top="0" ab="" des="" pid="1" s="10" />
+    <areatype id="10" nm="Spanish REP" top="0" ab="" des="" pid="1" s="11" />
+    <areatype id="11" nm="Spanish REF" top="0" ab="" des="" pid="1" s="12" />
   </areatypes>
   <areas>
     <area id="1" nm="County" ab="" des="" atid="1" pid="" t="1" el="0" s="1" />
-    <area id="2" nm="Arkwright Town Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="3" />
-    <area id="3" nm="Lakewood Baptist Church" ab="" des="" atid="2" pid="1" t="0" el="0" s="4" />
-    <area id="4" nm="Busti Fire Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="5" />
-    <area id="5" nm="Frew Fire Station #2" ab="" des="" atid="2" pid="1" t="0" el="0" s="6" />
-    <area id="6" nm="Sinclairville Fire Station" ab="" des="" atid="2" pid="1" t="0" el="0" s="7" />
-    <area id="7" nm="Carlson Community Center" ab="" des="" atid="2" pid="1" t="0" el="0" s="8" />
-    <area id="8" nm="Cherry Creek Town Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="9" />
-    <area id="9" nm="Abbe Reformed Church" ab="" des="" atid="2" pid="1" t="0" el="0" s="10" />
-    <area id="10" nm="East Town Dunkirk Fire Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="11" />
-    <area id="11" nm="Dunkirk Town  Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="12" />
-    <area id="12" nm="Bemus Point United Methodist Church" ab="" des="" atid="2" pid="1" t="0" el="0" s="19" />
-    <area id="13" nm="Heritage Green Health Care Center" ab="" des="" atid="2" pid="1" t="0" el="0" s="20" />
-    <area id="14" nm="Ellington Town Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="26" />
-    <area id="15" nm="Peek N Peak " ab="" des="" atid="2" pid="1" t="0" el="0" s="27" />
-    <area id="16" nm="Gerry Fire Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="28" />
-    <area id="17" nm="Mt Carmel Auditorium " ab="" des="" atid="2" pid="1" t="0" el="0" s="29" />
-    <area id="18" nm="Forestville Municipal Bldg" ab="" des="" atid="2" pid="1" t="0" el="0" s="30" />
-    <area id="19" nm="Panama Methodist Church" ab="" des="" atid="2" pid="1" t="0" el="0" s="31" />
-    <area id="20" nm="Kiantone Community Bldg" ab="" des="" atid="2" pid="1" t="0" el="0" s="39" />
-    <area id="21" nm="Mina Community Center" ab="" des="" atid="2" pid="1" t="0" el="0" s="40" />
-    <area id="22" nm="Ashville Fire District" ab="" des="" atid="2" pid="1" t="0" el="0" s="41" />
-    <area id="23" nm="Kennedy Volunteer Fire Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="42" />
-    <area id="24" nm="Wheelock School" ab="" des="" atid="2" pid="1" t="0" el="0" s="43" />
-    <area id="25" nm="BOCES Loguidice Center" ab="" des="" atid="2" pid="1" t="0" el="0" s="44" />
-    <area id="26" nm="Harvest Chapel FMC" ab="" des="" atid="2" pid="1" t="0" el="0" s="45" />
-    <area id="27" nm="Portland Town Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="46" />
-    <area id="28" nm="Ripley Central School" ab="" des="" atid="2" pid="1" t="0" el="0" s="47" />
-    <area id="29" nm="Sheridan Town Community Center" ab="" des="" atid="2" pid="1" t="0" el="0" s="48" />
-    <area id="30" nm="Sherman First Baptist Church" ab="" des="" atid="2" pid="1" t="0" el="0" s="49" />
-    <area id="31" nm="Stockton Fire Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="50" />
-    <area id="32" nm="Cassadaga Community Bldg" ab="" des="" atid="2" pid="1" t="0" el="0" s="51" />
-    <area id="33" nm="Villenova Town Hall" ab="" des="" atid="2" pid="1" t="0" el="0" s="52" />
-    <area id="34" nm="Eason Hall Auditorium " ab="" des="" atid="2" pid="1" t="0" el="0" s="53" />
-    <area id="35" nm="Democratic" ab="" des="" atid="3" pid="1" t="0" el="0" s="97" />
-    <area id="36" nm="Republican" ab="" des="" atid="4" pid="1" t="0" el="0" s="98" />
-    <area id="37" nm="Joseph J Steger Apts" ab="" des="" atid="5" pid="1" t="0" el="0" s="100" />
-    <area id="38" nm="St Hyacinths" ab="" des="" atid="5" pid="1" t="0" el="0" s="101" />
-    <area id="39" nm="FSUC Business Technology Incubator" ab="" des="" atid="5" pid="1" t="0" el="0" s="102" />
-    <area id="40" nm="St Johns UCC" ab="" des="" atid="5" pid="1" t="0" el="0" s="103" />
-    <area id="41" nm="Dunkirk First Baptist Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="104" />
-    <area id="42" nm="St Hedwigs Social Center" ab="" des="" atid="5" pid="1" t="0" el="0" s="105" />
-    <area id="43" nm="IBEW Local 106" ab="" des="" atid="5" pid="1" t="0" el="0" s="106" />
-    <area id="44" nm="Immanuel Lutheran Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="107" />
-    <area id="45" nm="Christ First UMC" ab="" des="" atid="5" pid="1" t="0" el="0" s="108" />
-    <area id="46" nm="Gateway Train Station" ab="" des="" atid="5" pid="1" t="0" el="0" s="109" />
-    <area id="47" nm="Hillcrest Baptist Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="110" />
-    <area id="48" nm="Kidder Mem UMC" ab="" des="" atid="5" pid="1" t="0" el="0" s="111" />
-    <area id="49" nm="Camp St United Methodist Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="112" />
-    <area id="50" nm="Village of Celoron Community Center" ab="" des="" atid="5" pid="1" t="0" el="0" s="113" />
-    <area id="51" nm="Bethel Baptist Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="114" />
-    <area id="52" nm="Fluvanna Community Church" ab="" des="" atid="5" pid="1" t="0" el="0" s="115" />
-    <area id="53" nm="Ellicott Town Administration Bldg" ab="" des="" atid="5" pid="1" t="0" el="0" s="116" />
-    <area id="54" nm="Girl Scout of WNY Building" ab="" des="" atid="5" pid="1" t="0" el="0" s="117" />
-    <area id="55" nm="Dem Spanish" ab="" des="" atid="7" pid="1" t="0" el="0" s="118" />
-    <area id="56" nm="Rep Spanish" ab="" des="" atid="8" pid="1" t="0" el="0" s="119" />
+    <area id="2" nm="Arkwright Town Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="3" />
+    <area id="3" nm="Lakewood Baptist Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="4" />
+    <area id="4" nm="Busti Fire Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="5" />
+    <area id="5" nm="Frew Fire Station #2" ab="" des="" atid="8" pid="1" t="0" el="0" s="6" />
+    <area id="6" nm="Sinclairville Fire Station" ab="" des="" atid="8" pid="1" t="0" el="0" s="7" />
+    <area id="7" nm="Carlson Community Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="8" />
+    <area id="8" nm="Cherry Creek Town Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="9" />
+    <area id="9" nm="Abbe Reformed Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="10" />
+    <area id="10" nm="East Town Dunkirk Fire Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="11" />
+    <area id="11" nm="Dunkirk Town  Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="12" />
+    <area id="12" nm="Joseph J Steger Apts" ab="" des="" atid="6" pid="1" t="0" el="0" s="13" />
+    <area id="13" nm="St Hyacinths " ab="" des="" atid="6" pid="1" t="0" el="0" s="14" />
+    <area id="14" nm="FSUC Technology Incubator" ab="" des="" atid="6" pid="1" t="0" el="0" s="15" />
+    <area id="15" nm="St Johns UCC" ab="" des="" atid="6" pid="1" t="0" el="0" s="16" />
+    <area id="16" nm="Dunkirk First Baptist Church" ab="" des="" atid="6" pid="1" t="0" el="0" s="17" />
+    <area id="17" nm="St Hedwigs Social Center" ab="" des="" atid="6" pid="1" t="0" el="0" s="18" />
+    <area id="18" nm="Bemus Point United Methodist Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="19" />
+    <area id="19" nm="Heritage Green Health Care Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="20" />
+    <area id="20" nm="Celoron Community Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="21" />
+    <area id="21" nm="Bethel Baptist Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="22" />
+    <area id="22" nm="Fluvanna Community Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="23" />
+    <area id="23" nm="Ellicott Town Admin Bldg" ab="" des="" atid="8" pid="1" t="0" el="0" s="24" />
+    <area id="24" nm="Girl Scout of WNY Bldg" ab="" des="" atid="8" pid="1" t="0" el="0" s="25" />
+    <area id="25" nm="Ellington Town Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="26" />
+    <area id="26" nm="Peek N Peak " ab="" des="" atid="8" pid="1" t="0" el="0" s="27" />
+    <area id="27" nm="Gerry Fire Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="28" />
+    <area id="28" nm="Mt Carmel Auditorium " ab="" des="" atid="8" pid="1" t="0" el="0" s="29" />
+    <area id="29" nm="Forestville Municipal Bldg" ab="" des="" atid="8" pid="1" t="0" el="0" s="30" />
+    <area id="30" nm="Panama Methodist Church" ab="" des="" atid="8" pid="1" t="0" el="0" s="31" />
+    <area id="31" nm="IBEW Local 106" ab="" des="" atid="6" pid="1" t="0" el="0" s="32" />
+    <area id="32" nm="Immanuel Lutheran Church" ab="" des="" atid="6" pid="1" t="0" el="0" s="33" />
+    <area id="33" nm="Christ First UMC" ab="" des="" atid="6" pid="1" t="0" el="0" s="34" />
+    <area id="34" nm="Gateway Train Station" ab="" des="" atid="6" pid="1" t="0" el="0" s="35" />
+    <area id="35" nm="Hillcrest Baptist Church" ab="" des="" atid="6" pid="1" t="0" el="0" s="36" />
+    <area id="36" nm="Kidder Memorial UMC" ab="" des="" atid="6" pid="1" t="0" el="0" s="37" />
+    <area id="37" nm="Camp St United Methodist Church" ab="" des="" atid="6" pid="1" t="0" el="0" s="38" />
+    <area id="38" nm="Kiantone Community Bldg" ab="" des="" atid="8" pid="1" t="0" el="0" s="39" />
+    <area id="39" nm="Mina Community Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="40" />
+    <area id="40" nm="Ashville Fire District" ab="" des="" atid="8" pid="1" t="0" el="0" s="41" />
+    <area id="41" nm="Kennedy Volunteer Fire Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="42" />
+    <area id="42" nm="Wheelock School" ab="" des="" atid="8" pid="1" t="0" el="0" s="43" />
+    <area id="43" nm="BOCES Loguidice Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="44" />
+    <area id="44" nm="Harvest Chapel FMC" ab="" des="" atid="8" pid="1" t="0" el="0" s="45" />
+    <area id="45" nm="Portland Town Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="46" />
+    <area id="46" nm="Ripley Central School" ab="" des="" atid="8" pid="1" t="0" el="0" s="47" />
+    <area id="47" nm="Sheridan Town Community Center" ab="" des="" atid="8" pid="1" t="0" el="0" s="48" />
+    <area id="48" nm="Stanley Hose Fire Company" ab="" des="" atid="8" pid="1" t="0" el="0" s="49" />
+    <area id="49" nm="Stockton Fire Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="50" />
+    <area id="50" nm="Cassadaga Community Bldg" ab="" des="" atid="8" pid="1" t="0" el="0" s="51" />
+    <area id="51" nm="Villenova Town Hall" ab="" des="" atid="8" pid="1" t="0" el="0" s="52" />
+    <area id="52" nm="Eason Hall Auditorium " ab="" des="" atid="8" pid="1" t="0" el="0" s="53" />
+    <area id="53" nm="Spanish REP" ab="" des="" atid="10" pid="1" t="0" el="0" s="96" />
+    <area id="54" nm="Spanish REF" ab="" des="" atid="11" pid="1" t="0" el="0" s="97" />
   </areas>
   <offices>
-    <office id="1" nm="PRESIDENT OF THE UNITED STATES DEM" atid="3" tp="Candidacy" sys="FPTP" maj="0" s="1" />
-    <office id="2" nm="PRESIDENT OF THE UNITED STATES REP" atid="4" tp="Candidacy" sys="FPTP" maj="0" s="2" />
-    <office id="3" nm="DELEGATES TO THE NATIONAL CONVENTION" atid="3" tp="Candidacy" sys="FPTP" maj="0" s="16" />
-    <office id="4" nm="Dem Spanish" atid="7" tp="Candidacy" sys="FPTP" maj="0" s="18" />
-    <office id="5" nm="Rep Spanish" atid="8" tp="Candidacy" sys="FPTP" maj="0" s="19" />
+    <office id="1" nm="State Senator" atid="1" tp="Candidacy" sys="FPTP" maj="0" s="3" />
+    <office id="2" nm="Member of Assembly 150th District" atid="1" tp="Candidacy" sys="FPTP" maj="0" s="4" />
+    <office id="3" nm="Family Court Judge" atid="1" tp="Candidacy" sys="FPTP" maj="0" s="5" />
   </offices>
   <contests>
-    <contest id="1001" nm="PRESIDENT OF THE UNITED STATES DEM " aid="35" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="216" />
-    <contest id="1002" nm="DELEGATES TO THE DEMOCRATIC NATIONAL CONVENTION 23rd Congressional District " aid="35" oid="3" pos="5" wr="0" el="0" acc="0" dis="0" s="217" />
-    <contest id="1003" nm="PRESIDENT OF THE UNITED STATES REP " aid="36" oid="2" pos="1" wr="0" el="0" acc="0" dis="0" s="218" />
-    <contest id="1004" nm="Dem Spanish Ballots included in totals" aid="55" oid="4" pos="1" wr="0" el="0" acc="0" dis="1" s="219" />
-    <contest id="1005" nm="Rep Spanish Ballots included in totals" aid="56" oid="5" pos="1" wr="0" el="0" acc="0" dis="1" s="220" />
+    <contest id="1001" nm="State Senate 57th District" aid="1" oid="1" pos="1" wr="1" el="0" acc="0" dis="0" s="4" />
+    <contest id="1002" nm="Member of Assembly 150th District" aid="1" oid="2" pos="1" wr="1" el="0" acc="0" dis="0" s="5" />
+    <contest id="1003" nm="Family Court Judge " aid="1" oid="3" pos="1" wr="1" el="0" acc="0" dis="0" s="6" />
+    <contest id="1004" nm="Family Court Judge " aid="1" oid="3" pos="1" wr="1" el="0" acc="0" dis="0" s="7" />
   </contests>
   <parties>
-    <party id="1" nm="DEMROW1" ab="DM1" des="" egid="2" s="1" />
-    <party id="2" nm="DEMROW2" ab="DM2" des="" egid="" s="2" />
-    <party id="3" nm="REPUBLICAN" ab="REP" des="" egid="3" s="3" />
+    <party id="1" nm="REPUBLICAN" ab="REP" des="" egid="4" s="1" />
+    <party id="2" nm="REFORM" ab="REF" des="" egid="5" s="9" />
   </parties>
   <choices>
-    <choice id="1" nm="Bernie Sanders" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="550" />
-    <choice id="2" nm="Hillary Clinton" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="551" />
-    <choice id="3" nm="Emily Adams" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="568" />
-    <choice id="4" nm="Mathew K. Ashford" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="569" />
-    <choice id="5" nm="Molly E. C. Grover" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="570" />
-    <choice id="6" nm="Donald M. Bazley" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="571" />
-    <choice id="7" nm="Mary D. Thorpe" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="572" />
-    <choice id="8" nm="Barbara Lifton" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="573" />
-    <choice id="9" nm="Svante Myrick" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="574" />
-    <choice id="10" nm="Irene Stein" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="575" />
-    <choice id="11" nm="Shawn D. Hogan" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="576" />
-    <choice id="12" nm="Bushra Sheikh" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="577" />
-    <choice id="13" nm="Donald J. Trump" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="552" />
-    <choice id="14" nm="John R. Kasich" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="554" />
-    <choice id="15" nm="Ben Carson" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="556" />
-    <choice id="16" nm="Ted Cruz" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="557" />
+    <choice id="1" nm="Catharine M. Young" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="620" />
+    <choice id="2" nm="Write-in" conid="1001" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="639" />
+    <choice id="3" nm="Andrew Goodell" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="559" />
+    <choice id="4" nm="Write-in" conid="1002" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="640" />
+    <choice id="5" nm="Sherry A. Bjork" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="637" />
+    <choice id="6" nm="Michael J. Sullivan" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="638" />
+    <choice id="7" nm="Write-in" conid="1003" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="641" />
+    <choice id="8" nm="Sally A. Jaroszynski" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="545" />
+    <choice id="9" nm="Michael J. Sullivan" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="546" />
+    <choice id="10" nm="Write-in" conid="1004" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="642" />
   </choices>
   <affiliations>
-    <aff chid="1" pid="1" s="1" />
-    <aff chid="2" pid="2" s="2" />
-    <aff chid="3" pid="1" s="1" />
-    <aff chid="4" pid="1" s="1" />
+    <aff chid="1" pid="2" s="9" />
+    <aff chid="3" pid="2" s="9" />
     <aff chid="5" pid="1" s="1" />
     <aff chid="6" pid="1" s="1" />
-    <aff chid="7" pid="1" s="1" />
-    <aff chid="8" pid="2" s="2" />
-    <aff chid="9" pid="2" s="2" />
-    <aff chid="10" pid="2" s="2" />
-    <aff chid="11" pid="2" s="2" />
-    <aff chid="12" pid="2" s="2" />
-    <aff chid="13" pid="3" s="3" />
-    <aff chid="14" pid="3" s="3" />
-    <aff chid="15" pid="3" s="3" />
-    <aff chid="16" pid="3" s="3" />
+    <aff chid="8" pid="2" s="9" />
+    <aff chid="9" pid="2" s="9" />
   </affiliations>
   <electorgroups>
-    <electorgroup id="1" nm="Non Partisan" ab="NON" t="1" s="7" />
-    <electorgroup id="2" nm="Democratic ALL" ab="DEM" t="0" s="24" />
-    <electorgroup id="3" nm="Republican ALL" ab="REP" t="0" s="25" />
+    <electorgroup id="1" nm="Republican Election Day" ab="REP" t="0" s="2" />
+    <electorgroup id="2" nm="Reform Election Day" ab="REF " t="0" s="3" />
+    <electorgroup id="3" nm="Non Partisan" ab="NON" t="1" s="10" />
+    <electorgroup id="4" nm="Republican ALL" ab="REP" t="0" s="23" />
+    <electorgroup id="5" nm="REFORM ALL" ab="REF" t="0" s="24" />
   </electorgroups>
   <combinations>
-    <combo id="1" nm="Non Partisan" />
-    <combo id="2" nm="Democratic" />
-    <combo id="3" nm="Republican" />
+    <combo id="1" nm="Republican Election Day" />
+    <combo id="2" nm="Reform Election Day" />
+    <combo id="3" nm="Non Partisan" />
   </combinations>
   <combohasgroups>
-    <chg gid="1" cid="1" s="1" />
-    <chg gid="2" cid="2" s="41" />
-    <chg gid="3" cid="3" s="42" />
+    <chg gid="1" cid="1" s="31" />
+    <chg gid="4" cid="1" s="32" />
+    <chg gid="5" cid="2" s="34" />
+    <chg gid="2" cid="2" s="35" />
+    <chg gid="3" cid="3" s="37" />
   </combohasgroups>
   <countinggroups>
     <countinggroup id="1" name="Election Day" />

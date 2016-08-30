@@ -1,130 +1,49 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<election id="1" nm="2016 Presidential Primary" dt="20160419" tp="General Election" jd="MONROE" des="2016 Monroe County Presidential Primary Election" ts="2016-04-15 11:32:13" el="0">
+<election id="1" nm="2016 Brockport Village Including Absenttee Results" dt="20160621" tp="General Election" jd="Monroe" des="village election" ts="2016-06-08 10:40:14" el="0">
   <areatypes>
-    <areatype id="1" nm="County" top="1" ab="" des="" pid="" s="1" />
-    <areatype id="2" nm="Democratic Congressional" top="0" ab="" des="" pid="1" s="2" />
-    <areatype id="3" nm="Republican Congressional" top="0" ab="" des="" pid="1" s="3" />
-    <areatype id="4" nm="Spanish" top="0" ab="" des="" pid="1" s="4" />
-    <areatype id="5" nm="" top="0" ab="" des="" pid="1" s="5" />
-    <areatype id="6" nm="" top="0" ab="" des="" pid="5" s="6" />
+    <areatype id="1" nm="Village" top="1" ab="" des="" pid="" s="0" />
   </areatypes>
   <areas>
-    <area id="1" nm="Monroe" ab="" des="" atid="1" pid="" t="1" el="0" s="1" />
-    <area id="2" nm="Democratic 25th Congressional District" ab="" des="" atid="2" pid="1" t="0" el="0" s="7" />
-    <area id="3" nm="Democratic 27th Congressional District" ab="" des="" atid="2" pid="1" t="0" el="0" s="8" />
-    <area id="4" nm="Republican 25th Congressional District" ab="" des="" atid="3" pid="1" t="0" el="0" s="9" />
-    <area id="5" nm="Republican 27th Congressional District" ab="" des="" atid="3" pid="1" t="0" el="0" s="10" />
-    <area id="6" nm="Spanish" ab="" des="" atid="4" pid="1" t="0" el="0" s="11" />
+    <area id="1" nm="Brockport" ab="" des="" atid="1" pid="" t="1" el="0" s="1" />
   </areas>
   <offices>
-    <office id="1" nm="President of the United States DEM" atid="2" tp="Candidacy" sys="FPTP" maj="0" s="3" />
-    <office id="2" nm="Delegate to the National Convention" atid="2" tp="Candidacy" sys="FPTP" maj="0" s="4" />
-    <office id="3" nm="President of the United States REP" atid="3" tp="Candidacy" sys="FPTP" maj="0" s="5" />
-    <office id="4" nm="Spanish" atid="4" tp="Off Ballot" sys="FPTP" maj="0" s="6" />
+    <office id="1" nm="Trustee 4 Year Term" atid="1" tp="Candidacy" sys="FPTP" maj="0" s="2" />
+    <office id="2" nm="Trustee 1 Year Term" atid="1" tp="Candidacy" sys="FPTP" maj="0" s="6" />
   </offices>
   <contests>
-    <contest id="1001" nm="President of the United States DEM 25th CD" aid="2" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="6" />
-    <contest id="1002" nm="Delegate to the National Convention DEM 25th CD" aid="2" oid="2" pos="6" wr="0" el="0" acc="0" dis="0" s="7" />
-    <contest id="1003" nm="President of the United States DEM 27th CD" aid="3" oid="1" pos="1" wr="0" el="0" acc="0" dis="0" s="8" />
-    <contest id="1004" nm="Delegate to the National Convention DEM 27th CD" aid="3" oid="2" pos="6" wr="0" el="0" acc="0" dis="0" s="9" />
-    <contest id="1005" nm="President of the United States REP 25th CD" aid="4" oid="3" pos="1" wr="0" el="0" acc="0" dis="0" s="10" />
-    <contest id="1006" nm="President of the United States REP 27th CD" aid="5" oid="3" pos="1" wr="0" el="0" acc="0" dis="0" s="11" />
+    <contest id="1001" nm="Village Trustee 4 Year Term" aid="1" oid="1" pos="2" wr="2" el="0" acc="0" dis="0" s="2" />
+    <contest id="1002" nm="Village Trustee 1 Year Term" aid="1" oid="2" pos="1" wr="1" el="0" acc="0" dis="0" s="5" />
   </contests>
   <parties>
-    <party id="1" nm="DEMROWA" ab="DMA" des="" egid="2" s="1" />
-    <party id="2" nm="DEMROWB" ab="DMB" des="" egid="" s="2" />
-    <party id="3" nm="REPUBLICAN" ab="REP" des="" egid="3" s="3" />
+    <party id="1" nm="Res for A Better Community" ab="RBC" des="" egid="" s="1" />
+    <party id="2" nm="Revitalize Brockport" ab="RVB" des="" egid="" s="2" />
   </parties>
   <choices>
-    <choice id="1" nm="Bernie Sanders" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="21" />
-    <choice id="2" nm="Hillary Clinton" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="22" />
-    <choice id="3" nm="Carrie E Gilroy" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="23" />
-    <choice id="4" nm="Kevin S Sweeney" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="24" />
-    <choice id="5" nm="Maryagnes Lupien" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="25" />
-    <choice id="6" nm="William J Benet" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="26" />
-    <choice id="7" nm="Liliana M Ruiz" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="27" />
-    <choice id="8" nm="Christopher E Roesch" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="28" />
-    <choice id="9" nm="Lovely A Warren" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="29" />
-    <choice id="10" nm="Joseph D Morelle" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="30" />
-    <choice id="11" nm="Hilda E Escher" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="31" />
-    <choice id="12" nm="David F Gantt" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="32" />
-    <choice id="13" nm="Margie M Brumfield" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="33" />
-    <choice id="14" nm="Thaddeus Ian Mack" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="34" />
-    <choice id="15" nm="Bernie Sanders" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="35" />
-    <choice id="16" nm="Hillary Clinton" conid="1003" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="36" />
-    <choice id="17" nm="Kathleen E Miller" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="37" />
-    <choice id="18" nm="Charles G Hess" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="38" />
-    <choice id="19" nm="Kathryn Eskew" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="39" />
-    <choice id="20" nm="Peter J Robbins" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="40" />
-    <choice id="21" nm="Jo-Ann A Bestine" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="41" />
-    <choice id="22" nm="James P Bestine" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="42" />
-    <choice id="23" nm="Terrence Melvin" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="43" />
-    <choice id="24" nm="Ramona Popowich" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="44" />
-    <choice id="25" nm="Craig Bucki" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="45" />
-    <choice id="26" nm="Lorie Longhany" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="46" />
-    <choice id="27" nm="James Briggs" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="47" />
-    <choice id="28" nm="Margaret Murphy" conid="1004" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="48" />
-    <choice id="29" nm="Donald J Trump" conid="1005" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="49" />
-    <choice id="30" nm="John R Kasich" conid="1005" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="51" />
-    <choice id="31" nm="Ben Carson" conid="1005" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="61" />
-    <choice id="32" nm="Ted Cruz" conid="1005" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="54" />
-    <choice id="33" nm="Donald J Trump" conid="1006" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="55" />
-    <choice id="34" nm="John R Kasich" conid="1006" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="57" />
-    <choice id="35" nm="Ben Carson" conid="1006" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="62" />
-    <choice id="36" nm="Ted Cruz" conid="1006" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="60" />
+    <choice id="1" nm="Lyle Stirk" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="3" />
+    <choice id="2" nm="Sarah Hart" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="14" />
+    <choice id="3" nm="John D LaPierre" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="15" />
+    <choice id="4" nm="William G Andrews" conid="1001" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="16" />
+    <choice id="5" nm="Write-in" conid="1001" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="23" />
+    <choice id="6" nm="Tim Barry" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="17" />
+    <choice id="7" nm="Annie Crane" conid="1002" wr="0" dis="0" inc="0" fnm="" lnm="" gen="" s="18" />
+    <choice id="8" nm="Write-in" conid="1002" wr="1" dis="0" inc="0" fnm="" lnm="" gen="" s="24" />
   </choices>
   <affiliations>
     <aff chid="1" pid="1" s="1" />
-    <aff chid="2" pid="2" s="2" />
-    <aff chid="3" pid="1" s="1" />
-    <aff chid="4" pid="1" s="1" />
-    <aff chid="5" pid="1" s="1" />
+    <aff chid="2" pid="1" s="1" />
+    <aff chid="3" pid="2" s="2" />
+    <aff chid="4" pid="2" s="2" />
     <aff chid="6" pid="1" s="1" />
-    <aff chid="7" pid="1" s="1" />
-    <aff chid="8" pid="1" s="1" />
-    <aff chid="9" pid="2" s="2" />
-    <aff chid="10" pid="2" s="2" />
-    <aff chid="11" pid="2" s="2" />
-    <aff chid="12" pid="2" s="2" />
-    <aff chid="13" pid="2" s="2" />
-    <aff chid="14" pid="2" s="2" />
-    <aff chid="15" pid="1" s="1" />
-    <aff chid="16" pid="2" s="2" />
-    <aff chid="17" pid="1" s="1" />
-    <aff chid="18" pid="1" s="1" />
-    <aff chid="19" pid="1" s="1" />
-    <aff chid="20" pid="1" s="1" />
-    <aff chid="21" pid="1" s="1" />
-    <aff chid="22" pid="1" s="1" />
-    <aff chid="23" pid="2" s="2" />
-    <aff chid="24" pid="2" s="2" />
-    <aff chid="25" pid="2" s="2" />
-    <aff chid="26" pid="2" s="2" />
-    <aff chid="27" pid="2" s="2" />
-    <aff chid="28" pid="2" s="2" />
-    <aff chid="29" pid="3" s="3" />
-    <aff chid="30" pid="3" s="3" />
-    <aff chid="31" pid="3" s="3" />
-    <aff chid="32" pid="3" s="3" />
-    <aff chid="33" pid="3" s="3" />
-    <aff chid="34" pid="3" s="3" />
-    <aff chid="35" pid="3" s="3" />
-    <aff chid="36" pid="3" s="3" />
+    <aff chid="7" pid="2" s="2" />
   </affiliations>
   <electorgroups>
     <electorgroup id="1" nm="Default" ab="Def" t="1" s="1" />
-    <electorgroup id="2" nm="Democratic EG" ab="DEM" t="0" s="2" />
-    <electorgroup id="3" nm="Republican EG" ab="REP" t="0" s="3" />
   </electorgroups>
   <combinations>
     <combo id="1" nm="Default" />
-    <combo id="2" nm="Democratic EGC" />
-    <combo id="3" nm="Republican EGC" />
   </combinations>
   <combohasgroups>
-    <chg gid="1" cid="1" s="4" />
-    <chg gid="2" cid="2" s="11" />
-    <chg gid="3" cid="3" s="12" />
+    <chg gid="1" cid="1" s="1" />
   </combohasgroups>
   <countinggroups>
     <countinggroup id="1" name="Election Day" />
