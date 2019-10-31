@@ -1,0 +1,1323 @@
+﻿<html>
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Summary Report</title><script type="text/javascript">
+    var speed = 2 //scrolling speed
+    var currentpos = 0 //current possition of scroll
+    var doScroll = 0 //start/stop scroll flag
+    var lastPossition = 0 //last possition of scroll
+    var endPause = 0 //counter how long will scroll stay on bottom of document
+
+    function getDocHeight()
+    {
+      var D = document;
+      return Math.max(
+              Math.max(D.body.scrollHeight, D.documentElement.scrollHeight),
+              Math.max(D.body.offsetHeight, D.documentElement.offsetHeight),
+              Math.max(D.body.clientHeight, D.documentElement.clientHeight))
+    }
+
+    function scrollwindow()
+    {
+      if (doScroll == 0) //user stop scroll
+        return
+
+      if (currentpos >= getDocHeight()) //guard, we are out of document
+      {
+        currentpos=0
+        window.scroll(0,currentpos)
+      }
+      else
+      {
+        currentpos=document.body.scrollTop+speed //calculate new possition
+        if (lastPossition == currentpos) //if we are on bottom, start counting pause
+          endPause += 1 //increment pause timer 
+        if (endPause > 100) //wait several steps (50 steps)
+        {
+          currentpos = 0; //reset possition, go to top
+          endPause = 0;
+        }
+        window.scroll(0,currentpos)
+      }
+      lastPossition = currentpos //store last possition
+    }
+
+    function doLoad()
+    {
+        setInterval("scrollwindow()",50)
+    }
+    
+    function toggleScroll()
+    {
+      if (doScroll == 1)
+        doScroll = 0;
+      else
+        doScroll = 1;
+    }
+  </script><style>
+    body {font-family:Geneva, Arial, Helvetica, sans-serif; font-size:100%;} 
+    h1 {  font-size: 1.5em; line-height=100%}
+    h2 {  font-size: 1.375e; line-height=100%}
+    h3 {  font-size: 0.625em; line-height=62.5%}
+    p { line-height=100%}
+    .contest {font-family:Geneva, Arial, Helvetica, sans-serif; font-size: 0.7em; text-decoration: underline;}
+    .stattable {font-family:Geneva, Arial, Helvetica, sans-serif; font-size: 0.7em; }
+    .num {text-align: right; }
+    .affiliation {text-align: right;}
+    .candidates {font-family:Geneva, Arial, Helvetica, sans-serif; font-size: 0.6em; }
+    .total { font-weight: bold; }
+  </style>
+  </head>
+  <body bgcolor="#ffffff" text="#000000" onload="doLoad()">
+    <center>
+      <p><B><FONT FACE="Arial" SIZE="4">General Election</FONT></B></p>
+      <p><input type="button" onClick="toggleScroll()" value="Toggle Scroll"></p>
+      <table BORDER="1" CELLSPACING="0" CELLPADDING="2" WIDTH="420" BGCOLOR="#BDBDBD">
+        <tr>
+          <td VALIGN="TOP" COLSPAN="3" ALIGN="CENTER" BGCOLOR="#BDBDBD">
+        Progress per Counting group
+        </td>
+        </tr>
+        <tr>
+          <td ALIGN="LEFT">
+            <FONT FACE="Arial" SIZE="2">Absentee</FONT>
+          </td>
+          <td width="70px" class="num">
+            <FONT FACE="Arial" SIZE="2">0 of 40</FONT>
+          </td>
+          <td width="50px" class="num">
+            <FONT FACE="Arial" SIZE="2">0.00%
+            </FONT>
+          </td>
+        </tr>
+        <tr>
+          <td ALIGN="LEFT">
+            <FONT FACE="Arial" SIZE="2">Election Day</FONT>
+          </td>
+          <td width="70px" class="num">
+            <FONT FACE="Arial" SIZE="2">40 of 40</FONT>
+          </td>
+          <td width="50px" class="num">
+            <FONT FACE="Arial" SIZE="2">100.00%
+            </FONT>
+          </td>
+        </tr>
+      </table>
+      <h2 class="contest"><a href="#1001">Presidential Electors For President and Vice President</a></h2>
+      <h2 class="contest"><a href="#1002">United States Senator</a></h2>
+      <h2 class="contest"><a href="#1003">Representative in Congress 27th</a></h2>
+      <h2 class="contest"><a href="#1004">Justice of the Supreme Court</a></h2>
+      <h2 class="contest"><a href="#1005">State Senator 57th SD</a></h2>
+      <h2 class="contest"><a href="#1006">State Senator 59th SD</a></h2>
+      <h2 class="contest"><a href="#1007">Member of Assemvly 133rd AD</a></h2>
+      <h2 class="contest"><a href="#1008">District Attorney</a></h2>
+      <h2 class="contest"><a href="#1009">County Coroner</a></h2>
+      <h2 class="contest"><a href="#1010">Town Justice Leicester</a></h2>
+      <h2 class="contest"><a href="#1011">Town Justice Livonia</a></h2>
+      <h2 class="contest"><a href="#1012">Town Justice North Dansville</a></h2>
+      <h2 class="contest"><a href="#1013">Town Justice Sparta</a></h2>
+      <h2 class="contest"><a href="#1014">Town Highway Superintendent (Unexpired Term) Sparta</a></h2>
+      <h2 class="contest"><a href="#1015">Town Council (Unexpired Term) Nunda</a></h2>
+      <h2 class="contest"><a href="#1016">Town Council (Unexpired Term) Springwater</a></h2>
+      <h2 class="contest"><a href="#1017">Town Council (Unexpired Term) West Sparta</a></h2>
+      <h2 class="contest"><a href="#1018">Town Highway Superintendent (Unexpired Term) Groveland</a></h2>
+      <h2 class="contest"><a href="#1019">Town Highway Superintendent (Unexpired Term) Ossian</a></h2>
+      <h2 class="contest"><a href="#1020">PROPOSITION NUMBER ONE Geneseo</a></h2><br><h2 class="contest"><a id="1001"></a>Presidential Electors For President and Vice President (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livingston:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Hillary Clinton Tim Kaine (DEM, WOR, WEP)</td>
+          <td class="num" width="70px">9,836</td>
+          <td class="num" width="50px">35.05%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">9,317</td>
+          <td class="num" width="50px">33.20%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WOR</td>
+          <td class="num" width="70px">355</td>
+          <td class="num" width="50px">1.27%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WEP</td>
+          <td class="num" width="70px">164</td>
+          <td class="num" width="50px">0.58%</td>
+        </tr>
+        <tr>
+          <td>Donald J. Trump Michael R. Pence (REP, CON)</td>
+          <td class="num" width="70px">16,362</td>
+          <td class="num" width="50px">58.31%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">14,354</td>
+          <td class="num" width="50px">51.15%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">2,008</td>
+          <td class="num" width="50px">7.16%</td>
+        </tr>
+        <tr>
+          <td>Jill Stein Ajamu Baraka (GRN)</td>
+          <td class="num" width="70px">408</td>
+          <td class="num" width="50px">1.45%</td>
+        </tr>
+        <tr>
+          <td>Gary Johnson Bill Weld (IND)</td>
+          <td class="num" width="70px">798</td>
+          <td class="num" width="50px">2.84%</td>
+        </tr>
+        <tr>
+          <td>Gary Johnson Bill Weld (LIB)</td>
+          <td class="num" width="70px">376</td>
+          <td class="num" width="50px">1.34%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">282</td>
+          <td class="num" width="50px">1.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">28,062</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1002"></a>United States Senator (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livingston:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Charles E. Schumer (DEM, WOR, IND, WEP)</td>
+          <td class="num" width="70px">13,914</td>
+          <td class="num" width="50px">51.76%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">12,108</td>
+          <td class="num" width="50px">45.04%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WOR</td>
+          <td class="num" width="70px">895</td>
+          <td class="num" width="50px">3.33%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">724</td>
+          <td class="num" width="50px">2.69%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WEP</td>
+          <td class="num" width="70px">187</td>
+          <td class="num" width="50px">0.70%</td>
+        </tr>
+        <tr>
+          <td>Wendy Long (REP, CON, RE)</td>
+          <td class="num" width="70px">12,350</td>
+          <td class="num" width="50px">45.94%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">10,373</td>
+          <td class="num" width="50px">38.58%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">1,862</td>
+          <td class="num" width="50px">6.93%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">115</td>
+          <td class="num" width="50px">0.43%</td>
+        </tr>
+        <tr>
+          <td>Robin Laverne Wilson (GRN)</td>
+          <td class="num" width="70px">335</td>
+          <td class="num" width="50px">1.25%</td>
+        </tr>
+        <tr>
+          <td>Alex Merced (LIB)</td>
+          <td class="num" width="70px">279</td>
+          <td class="num" width="50px">1.04%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">6</td>
+          <td class="num" width="50px">0.02%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">26,884</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1003"></a>Representative in Congress 27th (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>27:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Diana K. Kastenbaum (DEM)</td>
+          <td class="num" width="70px">8,385</td>
+          <td class="num" width="50px">32.27%</td>
+        </tr>
+        <tr>
+          <td>Chris Collins (REP, CON, IND, RE)</td>
+          <td class="num" width="70px">17,590</td>
+          <td class="num" width="50px">67.70%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">14,524</td>
+          <td class="num" width="50px">55.90%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">2,204</td>
+          <td class="num" width="50px">8.48%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">761</td>
+          <td class="num" width="50px">2.93%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">101</td>
+          <td class="num" width="50px">0.39%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">7</td>
+          <td class="num" width="50px">0.03%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">25,982</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1004"></a>Justice of the Supreme Court (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livingston:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Tonia M. Ettinger (DEM)</td>
+          <td class="num" width="70px">7,027</td>
+          <td class="num" width="50px">27.69%</td>
+        </tr>
+        <tr>
+          <td>Charles A. Schiano Jr. (REP, CON, IND)</td>
+          <td class="num" width="70px">17,676</td>
+          <td class="num" width="50px">69.65%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">14,586</td>
+          <td class="num" width="50px">57.48%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">2,233</td>
+          <td class="num" width="50px">8.80%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">857</td>
+          <td class="num" width="50px">3.38%</td>
+        </tr>
+        <tr>
+          <td>Mimi C. Satter (WOR)</td>
+          <td class="num" width="70px">655</td>
+          <td class="num" width="50px">2.58%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">19</td>
+          <td class="num" width="50px">0.07%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">25,377</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1005"></a>State Senator 57th SD (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>57:  reported: </td>
+          <td width="70px" class="num">19 of 38</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">12,121</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Lee Hyson (DEM, WOR, WEP)</td>
+          <td class="num" width="70px">2,028</td>
+          <td class="num" width="50px">18.11%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">1,819</td>
+          <td class="num" width="50px">16.24%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WOR</td>
+          <td class="num" width="70px">159</td>
+          <td class="num" width="50px">1.42%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WEP</td>
+          <td class="num" width="70px">50</td>
+          <td class="num" width="50px">0.45%</td>
+        </tr>
+        <tr>
+          <td>Catharine M. Young (REP, CON, IND, RE)</td>
+          <td class="num" width="70px">9,162</td>
+          <td class="num" width="50px">81.80%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">7,720</td>
+          <td class="num" width="50px">68.93%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">991</td>
+          <td class="num" width="50px">8.85%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">391</td>
+          <td class="num" width="50px">3.49%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">60</td>
+          <td class="num" width="50px">0.54%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">10</td>
+          <td class="num" width="50px">0.09%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">11,200</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1006"></a>State Senator 59th SD (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>59:  reported: </td>
+          <td width="70px" class="num">21 of 42</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">16,190</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Tom Casey (DEM)</td>
+          <td class="num" width="70px">4,678</td>
+          <td class="num" width="50px">31.63%</td>
+        </tr>
+        <tr>
+          <td>Patrick M. Gallivan (REP, CON, IND, RE)</td>
+          <td class="num" width="70px">10,106</td>
+          <td class="num" width="50px">68.34%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">8,212</td>
+          <td class="num" width="50px">55.53%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">1,296</td>
+          <td class="num" width="50px">8.76%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">530</td>
+          <td class="num" width="50px">3.58%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">68</td>
+          <td class="num" width="50px">0.46%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">4</td>
+          <td class="num" width="50px">0.03%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">14,788</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1007"></a>Member of Assemvly 133rd AD (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>133:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Barbara A. Baer (DEM, WOR, WEP)</td>
+          <td class="num" width="70px">9,961</td>
+          <td class="num" width="50px">38.75%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">9,082</td>
+          <td class="num" width="50px">35.33%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WOR</td>
+          <td class="num" width="70px">627</td>
+          <td class="num" width="50px">2.44%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WEP</td>
+          <td class="num" width="70px">252</td>
+          <td class="num" width="50px">0.98%</td>
+        </tr>
+        <tr>
+          <td>Joe Errigo (REP, CON, IND, RE)</td>
+          <td class="num" width="70px">15,610</td>
+          <td class="num" width="50px">60.72%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">12,899</td>
+          <td class="num" width="50px">50.18%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">2,020</td>
+          <td class="num" width="50px">7.86%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">602</td>
+          <td class="num" width="50px">2.34%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">89</td>
+          <td class="num" width="50px">0.35%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">136</td>
+          <td class="num" width="50px">0.53%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">25,707</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1008"></a>District Attorney (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livingston:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Gregory J. McCaffrey (DEM, CON, WOR, IND)</td>
+          <td class="num" width="70px">15,937</td>
+          <td class="num" width="50px">59.70%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">11,584</td>
+          <td class="num" width="50px">43.39%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">CON</td>
+          <td class="num" width="70px">3,056</td>
+          <td class="num" width="50px">11.45%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">WOR</td>
+          <td class="num" width="70px">590</td>
+          <td class="num" width="50px">2.21%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">IND</td>
+          <td class="num" width="70px">707</td>
+          <td class="num" width="50px">2.65%</td>
+        </tr>
+        <tr>
+          <td>Raymond P. Sciarrino (REP, RE)</td>
+          <td class="num" width="70px">10,747</td>
+          <td class="num" width="50px">40.26%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">10,486</td>
+          <td class="num" width="50px">39.28%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">RE</td>
+          <td class="num" width="70px">261</td>
+          <td class="num" width="50px">0.98%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">12</td>
+          <td class="num" width="50px">0.04%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">26,696</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1009"></a>County Coroner (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livingston:  reported: </td>
+          <td width="70px" class="num">40 of 80</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">28,311</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>RJ Kantowski III (REP)</td>
+          <td class="num" width="70px">19,502</td>
+          <td class="num" width="50px">99.64%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">70</td>
+          <td class="num" width="50px">0.36%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">19,572</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1010"></a>Town Justice Leicester (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Leicester:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">1,004</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Henry C. Smith (REP)</td>
+          <td class="num" width="70px">719</td>
+          <td class="num" width="50px">99.45%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">4</td>
+          <td class="num" width="50px">0.55%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">723</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1011"></a>Town Justice Livonia (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Livonia:  reported: </td>
+          <td width="70px" class="num">5 of 10</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">3,815</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>David Mahoney (REP)</td>
+          <td class="num" width="70px">1,165</td>
+          <td class="num" width="50px">36.59%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">2,019</td>
+          <td class="num" width="50px">63.41%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">3,184</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1012"></a>Town Justice North Dansville (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>North Dansville:  reported: </td>
+          <td width="70px" class="num">4 of 8</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">2,171</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Joshua Weidman (REP)</td>
+          <td class="num" width="70px">1,683</td>
+          <td class="num" width="50px">99.23%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">13</td>
+          <td class="num" width="50px">0.77%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">1,696</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1013"></a>Town Justice Sparta (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Sparta:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">717</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Christopher Scollon (REP)</td>
+          <td class="num" width="70px">527</td>
+          <td class="num" width="50px">99.62%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">2</td>
+          <td class="num" width="50px">0.38%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">529</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1014"></a>Town Highway Superintendent (Unexpired Term) Sparta (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Sparta:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">717</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Kevin E. Robinson (REP)</td>
+          <td class="num" width="70px">542</td>
+          <td class="num" width="50px">98.72%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">7</td>
+          <td class="num" width="50px">1.28%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">549</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1015"></a>Town Council (Unexpired Term) Nunda (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Nunda:  reported: </td>
+          <td width="70px" class="num">2 of 4</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">1,236</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Gary Galton (DEM)</td>
+          <td class="num" width="70px">478</td>
+          <td class="num" width="50px">40.65%</td>
+        </tr>
+        <tr>
+          <td>Randy Morris (REP)</td>
+          <td class="num" width="70px">698</td>
+          <td class="num" width="50px">59.35%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">0</td>
+          <td class="num" width="50px">0.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">1,176</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1016"></a>Town Council (Unexpired Term) Springwater (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Springwater:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">1,028</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>David Cotter (REP)</td>
+          <td class="num" width="70px">699</td>
+          <td class="num" width="50px">74.36%</td>
+        </tr>
+        <tr>
+          <td>Mark Hopkins (DEM)</td>
+          <td class="num" width="70px">241</td>
+          <td class="num" width="50px">25.64%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">0</td>
+          <td class="num" width="50px">0.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">940</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1017"></a>Town Council (Unexpired Term) West Sparta (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>West Sparta:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">580</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Shawn Mann (DEM)</td>
+          <td class="num" width="70px">285</td>
+          <td class="num" width="50px">55.34%</td>
+        </tr>
+        <tr>
+          <td>Frederick Bundschuh (REP)</td>
+          <td class="num" width="70px">229</td>
+          <td class="num" width="50px">44.47%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">1</td>
+          <td class="num" width="50px">0.19%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">515</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1018"></a>Town Highway Superintendent (Unexpired Term) Groveland (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Groveland:  reported: </td>
+          <td width="70px" class="num">2 of 4</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">768</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Tanner Harvey (DEM)</td>
+          <td class="num" width="70px">195</td>
+          <td class="num" width="50px">27.08%</td>
+        </tr>
+        <tr>
+          <td>James Love (REP)</td>
+          <td class="num" width="70px">401</td>
+          <td class="num" width="50px">55.69%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">124</td>
+          <td class="num" width="50px">17.22%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">720</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1019"></a>Town Highway Superintendent (Unexpired Term) Ossian (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Ossian:  reported: </td>
+          <td width="70px" class="num">1 of 2</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">376</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>Shaun M. Metcalfe (DEM, REP)</td>
+          <td class="num" width="70px">320</td>
+          <td class="num" width="50px">99.07%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">DEM</td>
+          <td class="num" width="70px">78</td>
+          <td class="num" width="50px">24.15%</td>
+        </tr>
+        <tr>
+          <td class="affiliation">REP</td>
+          <td class="num" width="70px">242</td>
+          <td class="num" width="50px">74.92%</td>
+        </tr>
+        <tr>
+          <td>Write-in</td>
+          <td class="num" width="70px">3</td>
+          <td class="num" width="50px">0.93%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">323</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><h2 class="contest"><a id="1020"></a>PROPOSITION NUMBER ONE Geneseo (Vote for 1)</h2>
+      <table class="stattable" width="400px">
+        <tr>
+          <td>Geneseo:  reported: </td>
+          <td width="70px" class="num">5 of 10</td>
+          <td width="50px" class="num">50.00%
+</td>
+        </tr>
+        <tr>
+          <td>Ballots:</td>
+          <td class="num" width="70px">4,186</td>
+          <td width="50px"></td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr>
+          <td>YES</td>
+          <td class="num" width="70px">1,537</td>
+          <td class="num" width="50px">65.68%</td>
+        </tr>
+        <tr>
+          <td>NO</td>
+          <td class="num" width="70px">803</td>
+          <td class="num" width="50px">34.32%</td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <hr>
+          </td>
+        </tr>
+        <tr class="total">
+          <td>Total</td>
+          <td class="num" width="70px">2,340</td>
+          <td class="num" width="50px">100.00%</td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </table><br><p><input type="button" onClick="toggleScroll()" value="Toggle Scroll"></p>
+    </center>
+  </body>
+</html>

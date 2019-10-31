@@ -1,0 +1,58 @@
+﻿[
+	{
+		"id": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2",
+		"areaType": "County",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": ""
+	},
+	{
+		"id": "be324987-4f7d-42a6-8c2a-58be20e0c51c",
+		"areaType": "County Legislature",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	},
+	{
+		"id": "e06dbeaf-f67c-4fe6-9175-b06d141775f1",
+		"areaType": "City",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	},
+	{
+		"id": "e421fd98-ebf1-44cb-98bf-33e1f905b9ad",
+		"areaType": "City Council",
+		"hasContests": true,
+		"showByDefault": true,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	},
+	{
+		"id": "707feba0-e3ef-419e-94f6-87ee5823dbea",
+		"areaType": "Town",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	},
+	{
+		"id": "f0732acd-464c-44b7-96a7-4d3b5e2703aa",
+		"areaType": "Ward",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "707feba0-e3ef-419e-94f6-87ee5823dbea"
+	},
+	{
+		"id": "5e5db4a7-a30f-45c2-adcf-b8c032d18bd7",
+		"areaType": "Village",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	},
+	{
+		"id": "2e26987b-971c-4fcc-a869-b1db59290f67",
+		"areaType": "Spanish",
+		"hasContests": true,
+		"showByDefault": false,
+		"parentid": "9f5dc1c3-ad8d-48b0-ac0d-77857da320f2"
+	}
+]

@@ -1,0 +1,226 @@
+﻿[
+	{
+		"id": "1",
+		"areaName": "Monroe",
+		"sort": 1,
+		"hasContests": false,
+		"areaTypeId": "39bbdc88-0ad5-4fd1-b154-f4b6da6b437e",
+		"parentAreaId": ""
+	},
+	{
+		"id": "2",
+		"areaName": "Federal",
+		"sort": 2,
+		"hasContests": true,
+		"areaTypeId": "a5c0f3f5-5ea2-4729-9c8e-cbfe6a3d0f71",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "3",
+		"areaName": "State/Countywide",
+		"sort": 3,
+		"hasContests": true,
+		"areaTypeId": "53421385-3efd-4f48-a261-43d4822d1a4b",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "4",
+		"areaName": "25th Congress",
+		"sort": 4,
+		"hasContests": true,
+		"areaTypeId": "a8f5c2d6-9913-4d02-b408-ac9a89c7aa0a",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "5",
+		"areaName": "27th Congress",
+		"sort": 5,
+		"hasContests": true,
+		"areaTypeId": "a8f5c2d6-9913-4d02-b408-ac9a89c7aa0a",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "6",
+		"areaName": "54th State Senate",
+		"sort": 6,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "7",
+		"areaName": "55th State Senate",
+		"sort": 7,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "8",
+		"areaName": "56th State Senate",
+		"sort": 8,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "9",
+		"areaName": "59th State Senate",
+		"sort": 9,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "10",
+		"areaName": "61st State Senate",
+		"sort": 10,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "11",
+		"areaName": "62nd State Senate",
+		"sort": 11,
+		"hasContests": true,
+		"areaTypeId": "785084d5-7c61-42bd-9b40-802056ddcee9",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "12",
+		"areaName": "133rd State Assembly",
+		"sort": 12,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "13",
+		"areaName": "134th State Assembly",
+		"sort": 13,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "14",
+		"areaName": "135th State Assembly",
+		"sort": 14,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "15",
+		"areaName": "136th State Assembly",
+		"sort": 15,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "16",
+		"areaName": "137th State Assembly",
+		"sort": 16,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "17",
+		"areaName": "138th State Assembly",
+		"sort": 17,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "18",
+		"areaName": "139th State Assembly",
+		"sort": 18,
+		"hasContests": true,
+		"areaTypeId": "921ee94a-83aa-4081-aa02-674726b845e1",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "19",
+		"areaName": "1st County Legislature",
+		"sort": 19,
+		"hasContests": true,
+		"areaTypeId": "7a85357f-3921-45b0-a8c3-cb1d5679616c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "20",
+		"areaName": "Rochester",
+		"sort": 20,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "21",
+		"areaName": "Clarkson",
+		"sort": 21,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "22",
+		"areaName": "East Rochester",
+		"sort": 22,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "23",
+		"areaName": "Parma",
+		"sort": 23,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "24",
+		"areaName": "Riga",
+		"sort": 24,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "25",
+		"areaName": "Rush",
+		"sort": 25,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "26",
+		"areaName": "Sweden",
+		"sort": 26,
+		"hasContests": true,
+		"areaTypeId": "7b9acc77-fb4f-4cab-a552-e04b985b3a5c",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "27",
+		"areaName": "Fairport",
+		"sort": 27,
+		"hasContests": true,
+		"areaTypeId": "8034f0e4-d0c8-4390-8e92-739decc912cd",
+		"parentAreaId": "1"
+	},
+	{
+		"id": "28",
+		"areaName": "Spanish",
+		"sort": 28,
+		"hasContests": false,
+		"areaTypeId": "2e65fb87-a6d1-4b11-af94-8a0557a1ef26",
+		"parentAreaId": "1"
+	}
+]
